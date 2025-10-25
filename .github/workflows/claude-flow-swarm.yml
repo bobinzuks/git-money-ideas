@@ -71,7 +71,7 @@ jobs:
             --value "$SWARM_ID"
 
       - name: 💾 Upload Swarm State
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: swarm-state
           path: |
@@ -112,7 +112,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🔄 Restore Swarm State
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: swarm-state
 
@@ -144,7 +144,7 @@ jobs:
             --metrics-file ".claude-flow/metrics/task-metrics.json"
 
       - name: 💾 Upload Agent Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: agent-results-${{ matrix.agent.name }}
           path: |
@@ -177,7 +177,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: 🔄 Download All Agent Results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
 
       - name: 🔄 Consolidate Results
         run: |
@@ -208,7 +208,7 @@ jobs:
             --format markdown > swarm-performance.md
 
       - name: 💾 Upload Learning Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: swarm-learning
           path: |
@@ -234,7 +234,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: 🔄 Download Results
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
 
       - name: 📋 Consolidate
         run: |
