@@ -1,0 +1,2188 @@
+{
+  "analysis_date": "2025-10-24T03:21:01.768910",
+  "total_qualified_users": 55,
+  "top_opportunities_count": 50,
+  "methodology": {
+    "criteria": "Users with 50+ repos, 100+ followers, active in last 6 months",
+    "scoring_factors": [
+      "Follower count (influence)",
+      "Repository count (productivity)",
+      "Recent activity",
+      "Company affiliation",
+      "Technical expertise indicators",
+      "Online presence (blog, twitter)"
+    ],
+    "monetization_focus": "Projects with validated demand, clear use cases, and monetization gaps"
+  },
+  "key_findings": {
+    "total_reach": 26379,
+    "total_repositories": 13368,
+    "average_influence_score": 8.51,
+    "top_companies": [
+      "Allegheny College",
+      "RUC",
+      "@digitalocean",
+      "UnionTech",
+      "Tsinghua",
+      "ByteDance",
+      "GFS",
+      "SHOU",
+      "Shouqianba Inc.",
+      "AmoebaFactor.com"
+    ],
+    "top_locations": [
+      "UAE",
+      "Beijing, China",
+      "China",
+      "\u5317\u4eac\u5e02",
+      "Hangzhou",
+      "chengdu",
+      "Chongqing, China",
+      "Philadelphia, PA",
+      "china chengdu",
+      "ShangHai, China"
+    ]
+  },
+  "high_potential_users": [
+    {
+      "rank": 1,
+      "username": "xudafeng",
+      "profile_url": "https://github.com/xudafeng",
+      "commercial_score": 12.0,
+      "stats": {
+        "followers": 2575,
+        "public_repos": 125,
+        "following": 101
+      },
+      "profile": {
+        "name": "\u8fbe\u5cf0\u7684\u590f\u5929",
+        "company": "@macacajs @nodejs @codefuse-ai @antgroup @weavefox",
+        "location": "Hangzhou, China",
+        "bio": "builder, coding @alipay",
+        "blog": "https://www.yuque.com/xudafeng",
+        "twitter": "2009xdf"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/xudafeng?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$50K-250K",
+        "total_portfolio_potential": "$200K-1M",
+        "confidence": "High"
+      }
+    },
+    {
+      "rank": 2,
+      "username": "wx-chevalier",
+      "profile_url": "https://github.com/wx-chevalier",
+      "commercial_score": 11.5,
+      "stats": {
+        "followers": 5332,
+        "public_repos": 178,
+        "following": 285
+      },
+      "profile": {
+        "name": "\u738b\u4e0b\u9080\u6708\u718a",
+        "company": "UnionTech",
+        "location": "Shanghai",
+        "bio": "\u67d0\u718a\u7684\u77e5\u8bc6\u5e93\uff08Zero Notes | \u6708\u718a\u661f\u77e5\uff0c\u6781\u7b80\u4e14\u6709\u6548\u7684\u8ba4\u77e5\uff09\uff1a\u5bf9\u6709\u4ef7\u503c\u7684\u5185\u5bb9\u9009\u62e9\u6027\u6c89\u6dc0\uff0c\u8ba9\u9605\u8bfb\u8005\u5728\u4e00\u7ad9\u5185\u66f4\u597d\u5730\u9605\u8bfb \ud83d\udcab Just Coder, Travel in the Galaxy \ud83d\udcab\u535a\u5ba2/\u516c\u4f17\u53f7\uff1a\u67d0\u718a\u7684\u6280\u672f\u4e4b\u8def",
+        "blog": "https://ng-tech.icu",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/wx-chevalier?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$100K-500K",
+        "total_portfolio_potential": "$500K-2500K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 3,
+      "username": "nikivdev",
+      "profile_url": "https://github.com/nikivdev",
+      "commercial_score": 11.5,
+      "stats": {
+        "followers": 4914,
+        "public_repos": 533,
+        "following": 16841
+      },
+      "profile": {
+        "name": "Nikita",
+        "company": null,
+        "location": null,
+        "bio": "Make @1focus-ai @genxai",
+        "blog": "nikiv.dev",
+        "twitter": "nikivdev"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        },
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/nikivdev?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$50K-250K",
+        "total_portfolio_potential": "$200K-1M",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 4,
+      "username": "csunny",
+      "profile_url": "https://github.com/csunny",
+      "commercial_score": 11.0,
+      "stats": {
+        "followers": 393,
+        "public_repos": 104,
+        "following": 87
+      },
+      "profile": {
+        "name": "magic.chen",
+        "company": "@antgroup",
+        "location": "chengdu",
+        "bio": "Both pythoner and gopher, recently focus on NLP\u3001Devops\u3001Distributed system and blockchain technology.",
+        "blog": "csunny.github.io",
+        "twitter": "magic10616810"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        },
+        {
+          "category": "DevOps & Infrastructure Tools",
+          "likelihood": "High",
+          "typical_stars": "200-3000",
+          "monetization": "Managed service, enterprise features, support",
+          "revenue_potential": "$75K-600K/year",
+          "time_to_market": "2-4 months"
+        },
+        {
+          "category": "Blockchain Tools & Infrastructure",
+          "likelihood": "Medium",
+          "typical_stars": "100-1500",
+          "monetization": "Node services, API access, consulting",
+          "revenue_potential": "$50K-400K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/csunny?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 5,
+      "username": "greengerong",
+      "profile_url": "https://github.com/greengerong",
+      "commercial_score": 10.5,
+      "stats": {
+        "followers": 366,
+        "public_repos": 107,
+        "following": 106
+      },
+      "profile": {
+        "name": "green",
+        "company": "thoughtworks",
+        "location": "china chengdu",
+        "bio": "architect, consultant",
+        "blog": "http://www.cnblogs.com/whitewolf/",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/greengerong?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 6,
+      "username": "wewoor",
+      "profile_url": "https://github.com/wewoor",
+      "commercial_score": 10.0,
+      "stats": {
+        "followers": 122,
+        "public_repos": 100,
+        "following": 153
+      },
+      "profile": {
+        "name": "Ziv",
+        "company": "@Earth",
+        "location": "Hangzhou, China",
+        "bio": "Full Stack Engineer / Web Frontend / Blogger\r\n",
+        "blog": "http://imziv.com",
+        "twitter": "zivxiaowei"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/wewoor?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 7,
+      "username": "kost",
+      "profile_url": "https://github.com/kost",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 557,
+        "public_repos": 227,
+        "following": 188
+      },
+      "profile": {
+        "name": "kost",
+        "company": "Diverto",
+        "location": "Zagreb, Croatia",
+        "bio": "Free software/Security contributor",
+        "blog": "",
+        "twitter": "k0st"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/kost?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$25K-150K",
+        "total_portfolio_potential": "$100K-500K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 8,
+      "username": "lsvih",
+      "profile_url": "https://github.com/lsvih",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 250,
+        "public_repos": 163,
+        "following": 99
+      },
+      "profile": {
+        "name": null,
+        "company": "Peking University",
+        "location": "Beijing, China",
+        "bio": "NLP & Cyber Security. Musicophile.",
+        "blog": "https://lsvih.com",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/lsvih?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 9,
+      "username": "nicejade",
+      "profile_url": "https://github.com/nicejade",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 991,
+        "public_repos": 59,
+        "following": 89
+      },
+      "profile": {
+        "name": "\u6768\u8f69\u5e05",
+        "company": "NICE SHARE",
+        "location": "ShenZhen",
+        "bio": "\u83ab\u542c\u7a7f\u6797\u6253\u53f6\u58f0\uff0c\u4f55\u59a8\u541f\u5578\u4e14\u5f90\u884c\u3002\u7af9\u6756\u8292\u978b\u8f7b\u80dc\u9a6c\uff0c\u8c01\u6015\uff1f\u4e00\u84d1\u70df\u96e8\u4efb\u5e73\u751f\u3002",
+        "blog": "https://www.niceshare.site",
+        "twitter": "MarshalXuan"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/nicejade?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$25K-150K",
+        "total_portfolio_potential": "$100K-500K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 10,
+      "username": "bububa",
+      "profile_url": "https://github.com/bububa",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 209,
+        "public_repos": 204,
+        "following": 198
+      },
+      "profile": {
+        "name": "Prof Syd Xu",
+        "company": "AmoebaFactor.com",
+        "location": "Beijing, China",
+        "bio": null,
+        "blog": "https://syd.is-a.dev",
+        "twitter": "bububa"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/bububa?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 11,
+      "username": "rayyee",
+      "profile_url": "https://github.com/rayyee",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 164,
+        "public_repos": 189,
+        "following": 1723
+      },
+      "profile": {
+        "name": "Ray Yee",
+        "company": "Lees Robots Technology",
+        "location": "Shanghai, China",
+        "bio": "Full-stack engineer and \r\nIndie game lover",
+        "blog": "gist.github.com/rayyee",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/rayyee?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 12,
+      "username": "chucheng92",
+      "profile_url": "https://github.com/chucheng92",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 305,
+        "public_repos": 103,
+        "following": 42
+      },
+      "profile": {
+        "name": "Ran Tao",
+        "company": "ByteDance",
+        "location": "Hangzhou, China",
+        "bio": "Committer @ Apache Calcite.\r\nFocus on big data, sql engine and streaming systems",
+        "blog": "http://chucheng92.github.io",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "High-Quality Developer Tools",
+          "likelihood": "Very High",
+          "typical_stars": "500-10000+",
+          "monetization": "Consulting, training, enterprise licensing",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/chucheng92?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 13,
+      "username": "vicky002",
+      "profile_url": "https://github.com/vicky002",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 865,
+        "public_repos": 79,
+        "following": 2
+      },
+      "profile": {
+        "name": "Vikesh Tiwari",
+        "company": "@texauhq",
+        "location": "Boston",
+        "bio": "\"The road to Easy Street goes through the Sewer.\"\r\n\r\nCEO @texauhq, Past at @donotpay @slackhq, @directi @spit-osd, @POKEBOTS. About me? : \u00af\\_(\u30c4)_/\u00af ",
+        "blog": "https://vikeshtiwari.com",
+        "twitter": "iamvikeshtiwari"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/vicky002?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$25K-150K",
+        "total_portfolio_potential": "$100K-500K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 14,
+      "username": "ai-ml-architect",
+      "profile_url": "https://github.com/ai-ml-architect",
+      "commercial_score": 9.5,
+      "stats": {
+        "followers": 134,
+        "public_repos": 2147,
+        "following": 976
+      },
+      "profile": {
+        "name": "Shashi Kumar Nagulakonda",
+        "company": null,
+        "location": "Working from home...",
+        "bio": "AI Solutions Architect. Cloud Architect. Solopreneur. Technology Aficionado. Amateur Photographer. Gadget Geek. ",
+        "blog": "https://www.linkedin.com/in/sashikn",
+        "twitter": "ai_ml_architect"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        },
+        {
+          "category": "DevOps & Infrastructure Tools",
+          "likelihood": "High",
+          "typical_stars": "200-3000",
+          "monetization": "Managed service, enterprise features, support",
+          "revenue_potential": "$75K-600K/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/ai-ml-architect?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 15,
+      "username": "STHSF",
+      "profile_url": "https://github.com/STHSF",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 137,
+        "public_repos": 86,
+        "following": 42
+      },
+      "profile": {
+        "name": "Yu Li",
+        "company": "SHOU",
+        "location": "ShangHai China",
+        "bio": "NLP, Machine learning, DeepLearning, Quant",
+        "blog": "sthsf.github.io",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/STHSF?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 16,
+      "username": "FunnyWolf",
+      "profile_url": "https://github.com/FunnyWolf",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 1329,
+        "public_repos": 95,
+        "following": 127
+      },
+      "profile": {
+        "name": "rootkit",
+        "company": "Philips",
+        "location": "China",
+        "bio": "Make Hacking Easier",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/FunnyWolf?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$50K-250K",
+        "total_portfolio_potential": "$200K-1M",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 17,
+      "username": "yu-iskw",
+      "profile_url": "https://github.com/yu-iskw",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 280,
+        "public_repos": 221,
+        "following": 135
+      },
+      "profile": {
+        "name": "Yu Ishikawa",
+        "company": null,
+        "location": null,
+        "bio": "Machine Learning / Data Science / Data Engineering / Data Governance / Self Driving Car Engineering / Privacy Engineering",
+        "blog": "https://www.linkedin.com/in/yuishikawa0301/",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/yu-iskw?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 18,
+      "username": "gkapfham",
+      "profile_url": "https://github.com/gkapfham",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 101,
+        "public_repos": 75,
+        "following": 8
+      },
+      "profile": {
+        "name": "Gregory M. Kapfhammer",
+        "company": "Allegheny College",
+        "location": "United States",
+        "bio": "Innovating in technical areas like software engineering and software testing, I teach, research, write, present, and develop software.",
+        "blog": "https://www.gregorykapfhammer.com",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/gkapfham?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 19,
+      "username": "johnandersen777",
+      "profile_url": "https://github.com/johnandersen777",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 162,
+        "public_repos": 294,
+        "following": 131
+      },
+      "profile": {
+        "name": "John",
+        "company": "@digitalocean",
+        "location": "Earth",
+        "bio": "2 Corinthians 10:17",
+        "blog": "https://softwaresecurityalignment.com",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/johnandersen777?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 20,
+      "username": "lujiajing1126",
+      "profile_url": "https://github.com/lujiajing1126",
+      "commercial_score": 9.0,
+      "stats": {
+        "followers": 203,
+        "public_repos": 248,
+        "following": 222
+      },
+      "profile": {
+        "name": "Jiajing LU",
+        "company": "Shouqianba Inc.",
+        "location": "Shanghai",
+        "bio": "Ph.D. & B.Eng. & Econ. Minor & Coder\r\n@apache SkyWalking committer, PMC member; Focus on APM-related systems\r\n",
+        "blog": "https://www.coder.dog",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/lujiajing1126?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "rank": 21,
+      "username": "Undertone0809",
+      "profile_url": "https://github.com/Undertone0809",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 224,
+        "public_repos": 88,
+        "following": 120
+      },
+      "profile": {
+        "name": "Zeeland",
+        "company": "Spark Lab",
+        "location": "Mars",
+        "bio": "Creator of Promptulate, Spark Lab. I design SDKs, infra and software for human and the NEW WORLD.",
+        "blog": "https://zeeland.top/",
+        "twitter": "kfhedRk3lXofRIB"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/Undertone0809?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 22,
+      "username": "daya0576",
+      "profile_url": "https://github.com/daya0576",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 129,
+        "public_repos": 87,
+        "following": 220
+      },
+      "profile": {
+        "name": "Henry Zhu",
+        "company": null,
+        "location": "Shanghai",
+        "bio": "\ud83d\udccdShanghai \ud83c\udfd3\ud83d\ude0b\ud83d\udc0d\ud83d\ude92 ",
+        "blog": "https://changchen.me",
+        "twitter": "daya0576"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/daya0576?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 23,
+      "username": "icowan",
+      "profile_url": "https://github.com/icowan",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 106,
+        "public_repos": 109,
+        "following": 46
+      },
+      "profile": {
+        "name": "dudulu",
+        "company": null,
+        "location": "\u5317\u4eac\u5e02",
+        "bio": "Developer Golang\u3001Docker\u3001Kubernetes\u3001LLM Developer",
+        "blog": "https://lattecake.com",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "AI/ML Tools & Models",
+          "likelihood": "High",
+          "typical_stars": "100-2000",
+          "monetization": "Hosted API, fine-tuning services, consulting",
+          "revenue_potential": "$100K-1M+/year",
+          "time_to_market": "2-4 months"
+        },
+        {
+          "category": "DevOps & Infrastructure Tools",
+          "likelihood": "High",
+          "typical_stars": "200-3000",
+          "monetization": "Managed service, enterprise features, support",
+          "revenue_potential": "$75K-600K/year",
+          "time_to_market": "2-4 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/icowan?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 24,
+      "username": "thomas-yanxin",
+      "profile_url": "https://github.com/thomas-yanxin",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 294,
+        "public_repos": 59,
+        "following": 193
+      },
+      "profile": {
+        "name": "thomas-yanxin",
+        "company": "@Cylingo-Team @X-D-Lab",
+        "location": "Beijing China",
+        "bio": "\u4e0d\u662f\u9022\u4eba\u82e6\u8a89\u541b\uff0c\u4ea6\u72c2\u4ea6\u4fa0\u4ea6\u6e29\u6587\u3002",
+        "blog": "https://thomas-yanxin.github.io/",
+        "twitter": "thomas_yanxin"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/thomas-yanxin?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 25,
+      "username": "amorist",
+      "profile_url": "https://github.com/amorist",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 407,
+        "public_repos": 281,
+        "following": 854
+      },
+      "profile": {
+        "name": "Amor",
+        "company": null,
+        "location": "ShangHai, China",
+        "bio": "\u4ece\u7ae5\u5e74\u8d77 \u6211\u4fbf\u72ec\u81ea\u4e00\u4eba \u7167\u987e\u7740 \u5386\u4ee3\u7684\u661f\u8fb0\r\nFounder, CEO, CTO, Lead Software Engineer",
+        "blog": "",
+        "twitter": "amor90s"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/amorist?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 26,
+      "username": "jumbojett",
+      "profile_url": "https://github.com/jumbojett",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 140,
+        "public_repos": 100,
+        "following": 553
+      },
+      "profile": {
+        "name": "Michael Jett",
+        "company": "MITRE",
+        "location": "Washington DC",
+        "bio": null,
+        "blog": "http://www.mitre.org/",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/jumbojett?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 27,
+      "username": "Saik0s",
+      "profile_url": "https://github.com/Saik0s",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 148,
+        "public_repos": 81,
+        "following": 366
+      },
+      "profile": {
+        "name": "Igor Tarasenko",
+        "company": null,
+        "location": "Diemen, Netherlands",
+        "bio": "A passionate problem solver and mobile solution developer",
+        "blog": "tarasenko.dev",
+        "twitter": "sa1k0s"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/Saik0s?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 28,
+      "username": "dengfuping",
+      "profile_url": "https://github.com/dengfuping",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 149,
+        "public_repos": 136,
+        "following": 98
+      },
+      "profile": {
+        "name": "\u8bf8\u5cb3",
+        "company": "Alipay",
+        "location": "Hangzhou",
+        "bio": "A front-end engineer in Alipay",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/dengfuping?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 29,
+      "username": "hyj1991",
+      "profile_url": "https://github.com/hyj1991",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 1279,
+        "public_repos": 128,
+        "following": 64
+      },
+      "profile": {
+        "name": "\u6613\u5bb9 (hyj1991)",
+        "company": null,
+        "location": "Nanjing, Jiangsu, China",
+        "bio": "Node.js | V8 | Libuv",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/hyj1991?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$50K-250K",
+        "total_portfolio_potential": "$200K-1M",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 30,
+      "username": "andantonyan",
+      "profile_url": "https://github.com/andantonyan",
+      "commercial_score": 8.5,
+      "stats": {
+        "followers": 148,
+        "public_repos": 50,
+        "following": 23
+      },
+      "profile": {
+        "name": "Andranik",
+        "company": null,
+        "location": null,
+        "bio": "Software Engineer",
+        "blog": "http://andantonyan.com",
+        "twitter": "andantonyan"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/andantonyan?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 31,
+      "username": "isLinXu",
+      "profile_url": "https://github.com/isLinXu",
+      "commercial_score": 8.0,
+      "stats": {
+        "followers": 231,
+        "public_repos": 293,
+        "following": 911
+      },
+      "profile": {
+        "name": "Hertz",
+        "company": "RUC",
+        "location": null,
+        "bio": "world is large model.",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/isLinXu?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 32,
+      "username": "thanhtoan1196",
+      "profile_url": "https://github.com/thanhtoan1196",
+      "commercial_score": 8.0,
+      "stats": {
+        "followers": 581,
+        "public_repos": 457,
+        "following": 4219
+      },
+      "profile": {
+        "name": "Toan Tran",
+        "company": null,
+        "location": null,
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Developer Tools & Frameworks",
+          "likelihood": "Very High",
+          "typical_stars": "500-5000+",
+          "monetization": "Open-core model, consulting, managed services",
+          "revenue_potential": "$50K-500K/year",
+          "time_to_market": "1-3 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/thanhtoan1196?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$25K-150K",
+        "total_portfolio_potential": "$100K-500K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 33,
+      "username": "hushicai",
+      "profile_url": "https://github.com/hushicai",
+      "commercial_score": 8.0,
+      "stats": {
+        "followers": 158,
+        "public_repos": 231,
+        "following": 291
+      },
+      "profile": {
+        "name": "hushicai",
+        "company": "GFS",
+        "location": "shenzhen",
+        "bio": "\u66fe\u7ecf\u68a6\u60f3\u4ed7\u5251\u8d70\u5929\u6daf",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/hushicai?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 34,
+      "username": "mbaneshi",
+      "profile_url": "https://github.com/mbaneshi",
+      "commercial_score": 7.5,
+      "stats": {
+        "followers": 185,
+        "public_repos": 1654,
+        "following": 1784
+      },
+      "profile": {
+        "name": "Mehdi Baneshi",
+        "company": null,
+        "location": "UAE Dubai",
+        "bio": "Nerd ITProfessional",
+        "blog": "",
+        "twitter": "mbaneshi_"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/mbaneshi?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 35,
+      "username": "hugefiver",
+      "profile_url": "https://github.com/hugefiver",
+      "commercial_score": 7.5,
+      "stats": {
+        "followers": 128,
+        "public_repos": 144,
+        "following": 24
+      },
+      "profile": {
+        "name": "Hugefiver",
+        "company": "CSUST",
+        "location": "China",
+        "bio": "I'm a mochine\uff0c\u662f\u65f6\u5019\u6478\u4e86\u3002\r\n\r\n",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/hugefiver?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 36,
+      "username": "alei76",
+      "profile_url": "https://github.com/alei76",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 107,
+        "public_repos": 439,
+        "following": 4499
+      },
+      "profile": {
+        "name": null,
+        "company": null,
+        "location": null,
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/alei76?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 37,
+      "username": "tsdl2018",
+      "profile_url": "https://github.com/tsdl2018",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 121,
+        "public_repos": 260,
+        "following": 2805
+      },
+      "profile": {
+        "name": null,
+        "company": null,
+        "location": null,
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/tsdl2018?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 38,
+      "username": "YangWang92",
+      "profile_url": "https://github.com/YangWang92",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 285,
+        "public_repos": 493,
+        "following": 722
+      },
+      "profile": {
+        "name": "Yang Wang ",
+        "company": null,
+        "location": null,
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/YangWang92?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 39,
+      "username": "mingfang",
+      "profile_url": "https://github.com/mingfang",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 182,
+        "public_repos": 247,
+        "following": 1
+      },
+      "profile": {
+        "name": "Ming Fang",
+        "company": null,
+        "location": "New York",
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/mingfang?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 40,
+      "username": "xissy",
+      "profile_url": "https://github.com/xissy",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 255,
+        "public_repos": 99,
+        "following": 66
+      },
+      "profile": {
+        "name": "Taeho Kim",
+        "company": null,
+        "location": "Seoul, Korea",
+        "bio": null,
+        "blog": "https://taeho.io",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/xissy?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 41,
+      "username": "huashiyiqike",
+      "profile_url": "https://github.com/huashiyiqike",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 117,
+        "public_repos": 53,
+        "following": 31
+      },
+      "profile": {
+        "name": "Allen Lyu",
+        "company": "Tsinghua",
+        "location": "Beijing, China",
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/huashiyiqike?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 42,
+      "username": "tikazyq",
+      "profile_url": "https://github.com/tikazyq",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 323,
+        "public_repos": 201,
+        "following": 47
+      },
+      "profile": {
+        "name": "Marvin Zhang",
+        "company": null,
+        "location": "Chongqing, China",
+        "bio": "Author of Crawlab",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/tikazyq?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 43,
+      "username": "geduardcatalindev",
+      "profile_url": "https://github.com/geduardcatalindev",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 178,
+        "public_repos": 201,
+        "following": 921
+      },
+      "profile": {
+        "name": "geduardcatalindev",
+        "company": null,
+        "location": null,
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/geduardcatalindev?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 44,
+      "username": "alanwu4321",
+      "profile_url": "https://github.com/alanwu4321",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 100,
+        "public_repos": 71,
+        "following": 104
+      },
+      "profile": {
+        "name": "Alan Wu",
+        "company": null,
+        "location": "SF & Waterloo & Vancouver & Taipei",
+        "bio": "eng @uwaterloo | prev @facebook, @shopify, @apple, @tesla\r\n",
+        "blog": "alan-wu.com",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/alanwu4321?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 45,
+      "username": "wardnath",
+      "profile_url": "https://github.com/wardnath",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 122,
+        "public_repos": 51,
+        "following": 431
+      },
+      "profile": {
+        "name": "Nathan Lloyd Ward",
+        "company": "FedEx Dataworks",
+        "location": "Ann Arbor, MI, USA",
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/wardnath?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 46,
+      "username": "alihalabyah",
+      "profile_url": "https://github.com/alihalabyah",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 144,
+        "public_repos": 1325,
+        "following": 0
+      },
+      "profile": {
+        "name": "Ali Halabyah",
+        "company": null,
+        "location": "UAE",
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/alihalabyah?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 47,
+      "username": "ManUtopiK",
+      "profile_url": "https://github.com/ManUtopiK",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 287,
+        "public_repos": 135,
+        "following": 1356
+      },
+      "profile": {
+        "name": "Emmanuel Salomon",
+        "company": null,
+        "location": "France",
+        "bio": "+15 years self-taught webdev with php, Node and front...\r\nCurrently working with: hasura.io, serverless, nuxt.js, fastify...\r\nHappydev \ud83d\ude04\u00a0\u00a0I accept remote jobs!",
+        "blog": "",
+        "twitter": "ManUtopiK"
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/ManUtopiK?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -4,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 48,
+      "username": "qixiaobo",
+      "profile_url": "https://github.com/qixiaobo",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 109,
+        "public_repos": 394,
+        "following": 331
+      },
+      "profile": {
+        "name": "qixiaobo",
+        "company": null,
+        "location": null,
+        "bio": "\u722a\u54c7\u7231\u597d\u8005",
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/qixiaobo?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -5,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 49,
+      "username": "ZhuoRoger",
+      "profile_url": "https://github.com/ZhuoRoger",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 102,
+        "public_repos": 84,
+        "following": 285
+      },
+      "profile": {
+        "name": null,
+        "company": "xiaomi",
+        "location": "China",
+        "bio": null,
+        "blog": "",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/ZhuoRoger?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    },
+    {
+      "rank": 50,
+      "username": "jawerty",
+      "profile_url": "https://github.com/jawerty",
+      "commercial_score": 7.0,
+      "stats": {
+        "followers": 251,
+        "public_repos": 80,
+        "following": 16
+      },
+      "profile": {
+        "name": "Jared Wright",
+        "company": null,
+        "location": "Philadelphia, PA",
+        "bio": "Always building. Code with me on YouTube https://www.youtube.com/channel/UCVTtYLn03CmwX-PUfZ3RF0A\r\nhttps://medium.com/@jawerty",
+        "blog": "https://LinkedIn.com/in/jawerty",
+        "twitter": null
+      },
+      "predicted_opportunities": [
+        {
+          "category": "Open Source Tools/Libraries",
+          "likelihood": "Medium",
+          "typical_stars": "100-1000",
+          "monetization": "Support, consulting, premium features",
+          "revenue_potential": "$25K-200K/year",
+          "time_to_market": "3-6 months"
+        }
+      ],
+      "next_steps": [
+        "Visit https://github.com/jawerty?tab=repositories&sort=stargazers",
+        "Identify repos with 100+ stars",
+        "Check for commercial traction (issues, PRs, community)",
+        "Assess monetization gap",
+        "Reach out for partnership/acquisition discussion"
+      ],
+      "estimated_total_potential": {
+        "estimated_monetizable_repos": -3,
+        "revenue_per_repo": "$10K-75K",
+        "total_portfolio_potential": "$50K-250K",
+        "confidence": "Moderate"
+      }
+    }
+  ]
+}

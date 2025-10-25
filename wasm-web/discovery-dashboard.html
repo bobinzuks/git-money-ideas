@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💎 Hidden Gem Discovery Dashboard - Live View</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+
+        .gems-container {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .gem-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid #ffd700;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .gem-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(5px);
+        }
+
+        .gem-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .gem-name {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .multiplier-badge {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #1e3c72;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .gem-meta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 10px 0;
+        }
+
+        .gem-meta span {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 1em;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .refresh-indicator {
+            display: inline-block;
+            margin-left: 10px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .filter-bar {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        select, input {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        select option {
+            background: #1e3c72;
+            color: #fff;
+        }
+
+        .tab-container {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tab {
+            padding: 12px 25px;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 10px 10px 0 0;
+            cursor: pointer;
+            color: #fff;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            background: rgba(255, 255, 255, 0.2);
+            border-bottom: 3px solid #ffd700;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .ideas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .idea-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 5px solid #4ade80;
+        }
+
+        .idea-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💎 Hidden Gem Discovery Dashboard</h1>
+            <p class="subtitle">Real-time view of 0-star repos with 50x AgentDB potential</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Gems Found</div>
+                <div class="stat-value" id="totalGems">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Avg Multiplier</div>
+                <div class="stat-value" id="avgMultiplier">0x</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">AI Ideas Generated</div>
+                <div class="stat-value" id="totalIdeas">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total Value Potential</div>
+                <div class="stat-value" id="totalValue">$0</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button onclick="loadFromDatabase()">🔄 Refresh from Database</button>
+            <button onclick="exportData()">💾 Export Results</button>
+            <button onclick="window.location.href='index.html'">🚀 WASM Dashboard</button>
+            <span id="liveIndicator" style="margin-left: 20px; padding: 8px 15px; background: rgba(74, 222, 128, 0.2); border-radius: 20px; border: 2px solid #4ade80;">🟢 LIVE (refreshing every 5s)</span>
+        </div>
+
+        <div class="filter-bar">
+            <label>Filter by:</label>
+            <select id="categoryFilter" onchange="applyFilters()">
+                <option value="">All Categories</option>
+                <option value="Communication">Communication</option>
+                <option value="Collaboration">Collaboration</option>
+                <option value="Real-time">Real-time</option>
+                <option value="AI/ML">AI/ML</option>
+            </select>
+
+            <label>Min Multiplier:</label>
+            <input type="number" id="multiplierFilter" value="10" min="1" max="50" onchange="applyFilters()">
+
+            <label>Max Stars:</label>
+            <input type="number" id="starsFilter" value="10" min="0" max="500" onchange="applyFilters()">
+        </div>
+
+        <div class="tab-container">
+            <button class="tab active" onclick="switchTab('gems')">💎 Hidden Gems</button>
+            <button class="tab" onclick="switchTab('ideas')">🤖 AI-Generated Ideas</button>
+        </div>
+
+        <div id="gemsTab" class="tab-content active">
+            <div class="gems-container">
+                <h2>🏆 Top Hidden Gems</h2>
+                <div id="gemsList">
+                    <p style="text-align: center; opacity: 0.7; padding: 40px;">
+                        Click "Refresh Data" to load gems from continuous discovery...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="ideasTab" class="tab-content">
+            <div class="gems-container">
+                <h2>🤖 AI-Generated Money-Making Ideas</h2>
+                <div id="ideasList" class="ideas-grid">
+                    <p style="text-align: center; opacity: 0.7; padding: 40px;">
+                        AI generates ideas every 5 cycles...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allGems = [];
+        let allIdeas = [];
+
+        async function loadFromDatabase() {
+            try {
+                console.log('🔄 Fetching from API...', new Date().toLocaleTimeString());
+
+                const [gemsRes, ideasRes] = await Promise.all([
+                    fetch('http://localhost:5000/api/gems', { cache: 'no-store' }),
+                    fetch('http://localhost:5000/api/ideas', { cache: 'no-store' })
+                ]);
+
+                console.log('API responses:', gemsRes.status, ideasRes.status);
+
+                if (gemsRes.ok && ideasRes.ok) {
+                    const gemsData = await gemsRes.json();
+                    const ideasData = await ideasRes.json();
+
+                    const newGemsCount = gemsData.gems ? gemsData.gems.length : 0;
+                    const newIdeasCount = ideasData.ideas ? ideasData.ideas.length : 0;
+
+                    console.log(`✅ API returned ${newGemsCount} gems and ${newIdeasCount} ideas`);
+
+                    allGems = gemsData.gems || [];
+                    allIdeas = ideasData.ideas || [];
+                    updateDisplay();
+
+                    // Show notification if data changed
+                    const statsEl = document.getElementById('totalGems');
+                    if (statsEl) {
+                        statsEl.style.animation = 'none';
+                        setTimeout(() => statsEl.style.animation = 'pulse 1s ease-in-out', 10);
+                    }
+                } else {
+                    console.error('❌ API request failed:', gemsRes.status, ideasRes.status);
+                    loadData();
+                }
+            } catch (e) {
+                console.error('❌ Database connection failed:', e);
+                console.log('Using mock data instead');
+                loadData();
+            }
+        }
+
+        async function loadData() {
+            // Simulate loading from discovery log
+            // In production, this would read from continuous_discovery.db via API
+
+            const mockGems = [
+                {name: "os-chatsystem", stars: 0, agentdb_multiplier: 23.5, category: "Communication", url: "https://github.com/example/os-chatsystem"},
+                {name: "memory", stars: 0, agentdb_multiplier: 23.5, category: "Communication", url: "https://github.com/example/memory"},
+                {name: "cognitive-chat-assistant", stars: 0, agentdb_multiplier: 22.5, category: "Communication", url: "https://github.com/example/cognitive-chat-assistant"},
+                {name: "Online-Chess-Game", stars: 0, agentdb_multiplier: 21.0, category: "Collaboration", url: "https://github.com/example/Online-Chess-Game"},
+                {name: "zustand-sync", stars: 0, agentdb_multiplier: 21.0, category: "Real-time", url: "https://github.com/example/zustand-sync"},
+                {name: "realtime-todo-list", stars: 1, agentdb_multiplier: 20.0, category: "Real-time", url: "https://github.com/example/realtime-todo-list"},
+            ];
+
+            allGems = mockGems;
+
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            updateStats();
+            displayGems(allGems);
+            displayIdeas(allIdeas);
+        }
+
+        function updateStats() {
+            document.getElementById('totalGems').textContent = allGems.length;
+
+            const avgMult = allGems.length > 0
+                ? (allGems.reduce((sum, g) => sum + g.agentdb_multiplier, 0) / allGems.length).toFixed(1)
+                : 0;
+            document.getElementById('avgMultiplier').textContent = avgMult + 'x';
+
+            document.getElementById('totalIdeas').textContent = allIdeas.length;
+
+            // Estimate total value (each gem worth ~$50K with AgentDB)
+            const totalValue = allGems.length * 50;
+            document.getElementById('totalValue').textContent = '$' + totalValue + 'K';
+        }
+
+        function displayGems(gems) {
+            const container = document.getElementById('gemsList');
+
+            if (gems.length === 0) {
+                container.innerHTML = '<p style="text-align: center; opacity: 0.7; padding: 40px;">No gems found yet. Discovery system is running...</p>';
+                return;
+            }
+
+            container.innerHTML = gems.map((gem, i) => `
+                <div class="gem-card" onclick="window.open('${gem.url}', '_blank')">
+                    <div class="gem-header">
+                        <div class="gem-name">${i + 1}. ${gem.name}</div>
+                        <div class="multiplier-badge">${gem.agentdb_multiplier}x</div>
+                    </div>
+                    <div class="gem-meta">
+                        <span>⭐ ${gem.stars} stars</span>
+                        <span>📁 ${gem.category}</span>
+                        <span>💰 Base: $${gem.stars * 50 || 1}K → With AgentDB: $${Math.round(gem.agentdb_multiplier * 2)}K</span>
+                    </div>
+                    <p style="margin-top: 10px; opacity: 0.8;">
+                        ${gem.stars === 0 ? '🔥 COMPLETELY UNDISCOVERED' : '💎 Low traction'} -
+                        Perfect candidate for AgentDB integration
+                    </p>
+                </div>
+            `).join('');
+        }
+
+        function displayIdeas(ideas) {
+            const container = document.getElementById('ideasList');
+
+            if (ideas.length === 0) {
+                container.innerHTML = '<p style="text-align: center; opacity: 0.7; padding: 40px; grid-column: 1/-1;">AI will generate ideas after cycle 5...</p>';
+                return;
+            }
+
+            container.innerHTML = ideas.map((idea, i) => `
+                <div class="idea-card">
+                    <div class="idea-title">${i + 1}. ${idea.name}</div>
+                    <div class="gem-meta">
+                        <span>🚀 ${idea.agentdb_multiplier}x</span>
+                        <span>⭐ ${idea.novelty_score}/10 novelty</span>
+                        <span>📁 ${idea.category}</span>
+                    </div>
+                    <p style="margin-top: 10px; opacity: 0.9; font-size: 0.9em;">
+                        AI-generated opportunity - doesn't exist yet!
+                    </p>
+                </div>
+            `).join('');
+        }
+
+        function applyFilters() {
+            const category = document.getElementById('categoryFilter').value;
+            const minMult = parseFloat(document.getElementById('multiplierFilter').value);
+            const maxStars = parseInt(document.getElementById('starsFilter').value);
+
+            let filtered = allGems.filter(gem => {
+                if (category && gem.category !== category) return false;
+                if (gem.agentdb_multiplier < minMult) return false;
+                if (gem.stars > maxStars) return false;
+                return true;
+            });
+
+            displayGems(filtered);
+        }
+
+        function switchTab(tab) {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+            if (tab === 'gems') {
+                document.querySelector('.tab:nth-child(1)').classList.add('active');
+                document.getElementById('gemsTab').classList.add('active');
+            } else {
+                document.querySelector('.tab:nth-child(2)').classList.add('active');
+                document.getElementById('ideasTab').classList.add('active');
+            }
+        }
+
+        function exportData() {
+            const data = {
+                exported_at: new Date().toISOString(),
+                gems: allGems,
+                ideas: allIdeas
+            };
+
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `hidden_gems_${Date.now()}.json`;
+            a.click();
+        }
+
+        // Auto-refresh every 5 seconds from database
+        let refreshInterval = setInterval(() => {
+            console.log('⏰ Auto-refresh triggered');
+            loadFromDatabase();
+        }, 5000);
+
+        console.log('🚀 Dashboard initialized, auto-refresh every 5s');
+
+        // Load initial data from database
+        loadFromDatabase();
+    </script>
+</body>
+</html>

@@ -1,0 +1,6082 @@
+{
+  "completed_at": "2025-10-24T11:19:50.951001",
+  "game_state": {
+    "level": 3,
+    "points": 10470,
+    "repos_discovered": 42,
+    "agentdb_opportunities": 8,
+    "high_value_found": 156,
+    "achievements": [
+      "Discovery Scout",
+      "Category Explorer",
+      "Similarity Master",
+      "AgentDB Detective"
+    ]
+  },
+  "similar_repos_found": 420,
+  "similar_repos": [
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.8186219334602356,
+      "score": 2.3
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.8172257542610168,
+      "score": 8.0
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "cookiecutter-fastapi",
+      "similarity": 0.656448483467102,
+      "score": 3.3
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.609244167804718,
+      "score": 8.4
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "DumpsterFire",
+      "similarity": 0.6078376173973083,
+      "score": 4.2
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "aideml",
+      "similarity": 0.5922380089759827,
+      "score": 3.5
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.5920889377593994,
+      "score": 6.0
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "assessment-mindset",
+      "similarity": 0.5920501351356506,
+      "score": 1.7
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.5917473435401917,
+      "score": 2.8
+    },
+    {
+      "source": "Red-Teaming-Toolkit",
+      "similar": "afrog",
+      "similarity": 0.5897124409675598,
+      "score": 8.3
+    },
+    {
+      "source": "afrog",
+      "similar": "BounceBack",
+      "similarity": 0.9998766183853149,
+      "score": 2.5
+    },
+    {
+      "source": "afrog",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.993023157119751,
+      "score": 6.0
+    },
+    {
+      "source": "afrog",
+      "similar": "assessment-mindset",
+      "similarity": 0.9916418194770813,
+      "score": 1.7
+    },
+    {
+      "source": "afrog",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.8517269492149353,
+      "score": 2.3
+    },
+    {
+      "source": "afrog",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.847399890422821,
+      "score": 6.3
+    },
+    {
+      "source": "afrog",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.7189310193061829,
+      "score": 2.3
+    },
+    {
+      "source": "afrog",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7175992727279663,
+      "score": 8.0
+    },
+    {
+      "source": "afrog",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5897124409675598,
+      "score": 7.7
+    },
+    {
+      "source": "afrog",
+      "similar": "DumpsterFire",
+      "similarity": 0.5453935861587524,
+      "score": 4.2
+    },
+    {
+      "source": "afrog",
+      "similar": "dvcs-ripper",
+      "similarity": 0.43633243441581726,
+      "score": 8
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.9830983281135559,
+      "score": 2.3
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "assessment-mindset",
+      "similarity": 0.8632208108901978,
+      "score": 1.7
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.8622796535491943,
+      "score": 6.0
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "afrog",
+      "similarity": 0.8473999500274658,
+      "score": 8.3
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "BounceBack",
+      "similarity": 0.8469598889350891,
+      "score": 2.5
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.6388797163963318,
+      "score": 8.0
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.6356645822525024,
+      "score": 2.3
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "DumpsterFire",
+      "similarity": 0.5301603078842163,
+      "score": 4.2
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "dvcs-ripper",
+      "similarity": 0.5240477323532104,
+      "score": 8
+    },
+    {
+      "source": "Penetration-Testing-Tools",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5097295045852661,
+      "score": 7.7
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "assessment-mindset",
+      "similarity": 0.9998452663421631,
+      "score": 1.7
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "afrog",
+      "similarity": 0.9930232167243958,
+      "score": 8.3
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "BounceBack",
+      "similarity": 0.9924660325050354,
+      "score": 2.5
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.8622796535491943,
+      "score": 6.3
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.8451181650161743,
+      "score": 2.3
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7327269911766052,
+      "score": 8.0
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.7317138910293579,
+      "score": 2.3
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5920889973640442,
+      "score": 7.7
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "DumpsterFire",
+      "similarity": 0.5869848132133484,
+      "score": 4.2
+    },
+    {
+      "source": "Awesome-Cybersecurity-Handbooks",
+      "similar": "dvcs-ripper",
+      "similarity": 0.4525781273841858,
+      "score": 8
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7709476351737976,
+      "score": 8.0
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "bugbug",
+      "similarity": 0.7104129195213318,
+      "score": 6.5
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "dvcs-ripper",
+      "similarity": 0.6724793910980225,
+      "score": 8
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "pystinger",
+      "similarity": 0.6633869409561157,
+      "score": 8
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.6495115756988525,
+      "score": 7.0
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "centreon-archived",
+      "similarity": 0.6386884450912476,
+      "score": 5.4
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "Viper",
+      "similarity": 0.6310932636260986,
+      "score": 9
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "1000_Projects",
+      "similarity": 0.6221733093261719,
+      "score": 8
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.6078376173973083,
+      "score": 7.7
+    },
+    {
+      "source": "DumpsterFire",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.5903257131576538,
+      "score": 2.8
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.9998452067375183,
+      "score": 6.0
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "afrog",
+      "similarity": 0.9916418194770813,
+      "score": 8.3
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "BounceBack",
+      "similarity": 0.9912633299827576,
+      "score": 2.5
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.863220751285553,
+      "score": 6.3
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.8440205454826355,
+      "score": 2.3
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7339659333229065,
+      "score": 8.0
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.7321603298187256,
+      "score": 2.3
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5920501351356506,
+      "score": 7.7
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "DumpsterFire",
+      "similarity": 0.5902824997901917,
+      "score": 4.2
+    },
+    {
+      "source": "assessment-mindset",
+      "similar": "dvcs-ripper",
+      "similarity": 0.4540722370147705,
+      "score": 8
+    },
+    {
+      "source": "BounceBack",
+      "similar": "afrog",
+      "similarity": 0.9998766779899597,
+      "score": 8.3
+    },
+    {
+      "source": "BounceBack",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.9924660325050354,
+      "score": 6.0
+    },
+    {
+      "source": "BounceBack",
+      "similar": "assessment-mindset",
+      "similarity": 0.9912633895874023,
+      "score": 1.7
+    },
+    {
+      "source": "BounceBack",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.8517906069755554,
+      "score": 2.3
+    },
+    {
+      "source": "BounceBack",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.8469598889350891,
+      "score": 6.3
+    },
+    {
+      "source": "BounceBack",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.7181585431098938,
+      "score": 2.3
+    },
+    {
+      "source": "BounceBack",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7173855304718018,
+      "score": 8.0
+    },
+    {
+      "source": "BounceBack",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5896605849266052,
+      "score": 7.7
+    },
+    {
+      "source": "BounceBack",
+      "similar": "DumpsterFire",
+      "similarity": 0.5439912676811218,
+      "score": 4.2
+    },
+    {
+      "source": "BounceBack",
+      "similar": "dvcs-ripper",
+      "similarity": 0.4361157715320587,
+      "score": 8
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.9830983281135559,
+      "score": 6.3
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "BounceBack",
+      "similarity": 0.8517906069755554,
+      "score": 2.5
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "afrog",
+      "similarity": 0.8517270088195801,
+      "score": 8.3
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.8451181650161743,
+      "score": 6.0
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "assessment-mindset",
+      "similarity": 0.8440206050872803,
+      "score": 1.7
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "RedTeam-Physical-Tools",
+      "similarity": 0.6113990545272827,
+      "score": 2.3
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.6105532050132751,
+      "score": 8.0
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.5021047592163086,
+      "score": 7.7
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "dvcs-ripper",
+      "similarity": 0.5017085075378418,
+      "score": 8
+    },
+    {
+      "source": "red_team_attack_lab",
+      "similar": "DumpsterFire",
+      "similarity": 0.46240368485450745,
+      "score": 4.2
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.8186219930648804,
+      "score": 7.7
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "assessment-mindset",
+      "similarity": 0.7321603894233704,
+      "score": 1.7
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.7317138910293579,
+      "score": 6.0
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "afrog",
+      "similarity": 0.7189310789108276,
+      "score": 8.3
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "BounceBack",
+      "similarity": 0.7181586027145386,
+      "score": 2.5
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "Penetration-Testing-Tools",
+      "similarity": 0.6356645822525024,
+      "score": 6.3
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "red_team_attack_lab",
+      "similarity": 0.6113990545272827,
+      "score": 2.3
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.5414015650749207,
+      "score": 8.0
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "DumpsterFire",
+      "similarity": 0.4501633644104004,
+      "score": 4.2
+    },
+    {
+      "source": "RedTeam-Physical-Tools",
+      "similar": "cookiecutter-fastapi",
+      "similarity": 0.41719114780426025,
+      "score": 3.3
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.9994912147521973,
+      "score": 6.7
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "aideml",
+      "similarity": 0.9867603778839111,
+      "score": 3.5
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.9819475412368774,
+      "score": 2.8
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.9046512246131897,
+      "score": 7.0
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "katib",
+      "similarity": 0.8497619032859802,
+      "score": 7.6
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "objectbox-swift",
+      "similarity": 0.7119187116622925,
+      "score": 3.8
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "bugbug",
+      "similarity": 0.7115536332130432,
+      "score": 6.5
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "gaia",
+      "similarity": 0.7109678387641907,
+      "score": 5.6
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "tera",
+      "similarity": 0.708173394203186,
+      "score": 6.6
+    },
+    {
+      "source": "ml-engineering",
+      "similar": "defradb",
+      "similarity": 0.7077212333679199,
+      "score": 3.8
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.9667404890060425,
+      "score": 2.8
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "aideml",
+      "similarity": 0.9615167379379272,
+      "score": 3.5
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.9154430031776428,
+      "score": 6.7
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "ml-engineering",
+      "similarity": 0.9046512246131897,
+      "score": 8.0
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "IceFireDB",
+      "similarity": 0.7737131714820862,
+      "score": 4.4
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "katib",
+      "similarity": 0.7670209407806396,
+      "score": 7.6
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7293050289154053,
+      "score": 8.0
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "defradb",
+      "similarity": 0.7278163433074951,
+      "score": 3.8
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "objectbox-swift",
+      "similarity": 0.6606922149658203,
+      "score": 3.8
+    },
+    {
+      "source": "AI-Infra-from-Zero-to-Hero",
+      "similar": "bugbug",
+      "similarity": 0.6562645435333252,
+      "score": 6.5
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.8172257542610168,
+      "score": 7.7
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "DumpsterFire",
+      "similarity": 0.7709476351737976,
+      "score": 4.2
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.7344363927841187,
+      "score": 2.8
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "assessment-mindset",
+      "similarity": 0.7339659333229065,
+      "score": 1.7
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "Awesome-Cybersecurity-Handbooks",
+      "similarity": 0.7327269911766052,
+      "score": 6.0
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "aideml",
+      "similarity": 0.7313933968544006,
+      "score": 3.5
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.7293050289154053,
+      "score": 7.0
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "afrog",
+      "similarity": 0.7175992727279663,
+      "score": 8.3
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "BounceBack",
+      "similarity": 0.717385470867157,
+      "score": 2.5
+    },
+    {
+      "source": "Awesome_GPT_Super_Prompting",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7129826545715332,
+      "score": 6.7
+    },
+    {
+      "source": "katib",
+      "similar": "ml-engineering",
+      "similarity": 0.8497618436813354,
+      "score": 8.0
+    },
+    {
+      "source": "katib",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.8491129875183105,
+      "score": 6.7
+    },
+    {
+      "source": "katib",
+      "similar": "aideml",
+      "similarity": 0.8379489183425903,
+      "score": 3.5
+    },
+    {
+      "source": "katib",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.8334107398986816,
+      "score": 2.8
+    },
+    {
+      "source": "katib",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.7670208811759949,
+      "score": 7.0
+    },
+    {
+      "source": "katib",
+      "similar": "objectbox-swift",
+      "similarity": 0.6048284769058228,
+      "score": 3.8
+    },
+    {
+      "source": "katib",
+      "similar": "bugbug",
+      "similarity": 0.604549765586853,
+      "score": 6.5
+    },
+    {
+      "source": "katib",
+      "similar": "gaia",
+      "similarity": 0.6041156649589539,
+      "score": 5.6
+    },
+    {
+      "source": "katib",
+      "similar": "tera",
+      "similarity": 0.6019134521484375,
+      "score": 6.6
+    },
+    {
+      "source": "katib",
+      "similar": "defradb",
+      "similarity": 0.600618302822113,
+      "score": 3.8
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "ml-engineering",
+      "similarity": 0.9994911551475525,
+      "score": 8.0
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "aideml",
+      "similarity": 0.990265965461731,
+      "score": 3.5
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.9870900511741638,
+      "score": 2.8
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.915442943572998,
+      "score": 7.0
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "katib",
+      "similarity": 0.8491129875183105,
+      "score": 7.6
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7129826545715332,
+      "score": 8.0
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "defradb",
+      "similarity": 0.7126362323760986,
+      "score": 3.8
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "objectbox-swift",
+      "similarity": 0.7125167846679688,
+      "score": 3.8
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "bugbug",
+      "similarity": 0.7119190692901611,
+      "score": 6.5
+    },
+    {
+      "source": "NBA-Machine-Learning-Sports-Betting",
+      "similar": "gaia",
+      "similarity": 0.7109714150428772,
+      "score": 5.6
+    },
+    {
+      "source": "aideml",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.9980441927909851,
+      "score": 2.8
+    },
+    {
+      "source": "aideml",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.9902660846710205,
+      "score": 6.7
+    },
+    {
+      "source": "aideml",
+      "similar": "ml-engineering",
+      "similarity": 0.9867603778839111,
+      "score": 8.0
+    },
+    {
+      "source": "aideml",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.9615167379379272,
+      "score": 7.0
+    },
+    {
+      "source": "aideml",
+      "similar": "katib",
+      "similarity": 0.8379489779472351,
+      "score": 7.6
+    },
+    {
+      "source": "aideml",
+      "similar": "IceFireDB",
+      "similarity": 0.7338570356369019,
+      "score": 4.4
+    },
+    {
+      "source": "aideml",
+      "similar": "defradb",
+      "similarity": 0.7316704988479614,
+      "score": 3.8
+    },
+    {
+      "source": "aideml",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7313934564590454,
+      "score": 8.0
+    },
+    {
+      "source": "aideml",
+      "similar": "objectbox-swift",
+      "similarity": 0.7088639140129089,
+      "score": 3.8
+    },
+    {
+      "source": "aideml",
+      "similar": "bugbug",
+      "similarity": 0.7069333791732788,
+      "score": 6.5
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "aideml",
+      "similarity": 0.9980441331863403,
+      "score": 3.5
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.9870900511741638,
+      "score": 6.7
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "ml-engineering",
+      "similarity": 0.9819474816322327,
+      "score": 8.0
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.9667404294013977,
+      "score": 7.0
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "katib",
+      "similarity": 0.8334107398986816,
+      "score": 7.6
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "IceFireDB",
+      "similarity": 0.7384172081947327,
+      "score": 4.4
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.7344363927841187,
+      "score": 8.0
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "defradb",
+      "similarity": 0.732392430305481,
+      "score": 3.8
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "objectbox-swift",
+      "similarity": 0.7060832977294922,
+      "score": 3.8
+    },
+    {
+      "source": "AI-ML-Cheatsheets",
+      "similar": "bugbug",
+      "similarity": 0.704007089138031,
+      "score": 6.5
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.656448483467102,
+      "score": 7.7
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.5901080369949341,
+      "score": 8.4
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "Awesome-Books-Notes",
+      "similarity": 0.5835707187652588,
+      "score": 8
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "aideml",
+      "similarity": 0.5732951760292053,
+      "score": 3.5
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.5725911259651184,
+      "score": 2.8
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.57118821144104,
+      "score": 6.7
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "ml-engineering",
+      "similarity": 0.569466769695282,
+      "score": 8.0
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.5454444885253906,
+      "score": 7.0
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "katib",
+      "similarity": 0.48357832431793213,
+      "score": 7.6
+    },
+    {
+      "source": "cookiecutter-fastapi",
+      "similar": "Awesome_GPT_Super_Prompting",
+      "similarity": 0.417906254529953,
+      "score": 8.0
+    },
+    {
+      "source": "bugbug",
+      "similar": "centreon-archived",
+      "similarity": 0.8150783777236938,
+      "score": 5.4
+    },
+    {
+      "source": "bugbug",
+      "similar": "1000_Projects",
+      "similarity": 0.7420430779457092,
+      "score": 8
+    },
+    {
+      "source": "bugbug",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7119191288948059,
+      "score": 6.7
+    },
+    {
+      "source": "bugbug",
+      "similar": "ml-engineering",
+      "similarity": 0.7115536332130432,
+      "score": 8.0
+    },
+    {
+      "source": "bugbug",
+      "similar": "DumpsterFire",
+      "similarity": 0.7104129791259766,
+      "score": 4.2
+    },
+    {
+      "source": "bugbug",
+      "similar": "aideml",
+      "similarity": 0.7069333791732788,
+      "score": 3.5
+    },
+    {
+      "source": "bugbug",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.7040071487426758,
+      "score": 2.8
+    },
+    {
+      "source": "bugbug",
+      "similar": "DistributedSystem-Notes",
+      "similarity": 0.6972103714942932,
+      "score": 9
+    },
+    {
+      "source": "bugbug",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.6562645435333252,
+      "score": 7.0
+    },
+    {
+      "source": "bugbug",
+      "similar": "Developer-Zero-To-Mastery",
+      "similarity": 0.6298532485961914,
+      "score": 10
+    },
+    {
+      "source": "gaia",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7109714150428772,
+      "score": 6.7
+    },
+    {
+      "source": "gaia",
+      "similar": "ml-engineering",
+      "similarity": 0.7109677791595459,
+      "score": 8.0
+    },
+    {
+      "source": "gaia",
+      "similar": "aideml",
+      "similarity": 0.7044470906257629,
+      "score": 3.5
+    },
+    {
+      "source": "gaia",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.7011087536811829,
+      "score": 2.8
+    },
+    {
+      "source": "gaia",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.6506063938140869,
+      "score": 7.0
+    },
+    {
+      "source": "gaia",
+      "similar": "Developer-Zero-To-Mastery",
+      "similarity": 0.6275049448013306,
+      "score": 10
+    },
+    {
+      "source": "gaia",
+      "similar": "Front-end-tutorial",
+      "similarity": 0.6176449656486511,
+      "score": 7
+    },
+    {
+      "source": "gaia",
+      "similar": "cuber-gem",
+      "similarity": 0.6057573556900024,
+      "score": 2.3
+    },
+    {
+      "source": "gaia",
+      "similar": "katib",
+      "similarity": 0.6041156649589539,
+      "score": 7.6
+    },
+    {
+      "source": "gaia",
+      "similar": "objectbox-swift",
+      "similarity": 0.5068536996841431,
+      "score": 3.8
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "gaia",
+      "similarity": 0.6057573556900024,
+      "score": 5.6
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "hyperdx",
+      "similarity": 0.5102572441101074,
+      "score": 8.6
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "unqlite",
+      "similarity": 0.49495193362236023,
+      "score": 5.1
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "EasyJob",
+      "similarity": 0.4643681049346924,
+      "score": 9
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "SleekDB",
+      "similarity": 0.4492414891719818,
+      "score": 3.8
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "markdown-online-editor",
+      "similarity": 0.4051075875759125,
+      "score": 9
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "Developer-Zero-To-Mastery",
+      "similarity": 0.4032304286956787,
+      "score": 10
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "Front-end-tutorial",
+      "similarity": 0.39278891682624817,
+      "score": 7
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "katib",
+      "similarity": 0.2938787639141083,
+      "score": 7.6
+    },
+    {
+      "source": "cuber-gem",
+      "similar": "china-dictatorship",
+      "similarity": 0.28965070843696594,
+      "score": 8.1
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": ".github",
+      "similarity": 1.0,
+      "score": 6.4
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "DumpsterFire",
+      "similarity": 0.4878085255622864,
+      "score": 4.2
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.45911529660224915,
+      "score": 8.4
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "easy-monitor",
+      "similarity": 0.42472392320632935,
+      "score": 10
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "SleekDB",
+      "similarity": 0.41895031929016113,
+      "score": 3.8
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "ardb",
+      "similarity": 0.412397176027298,
+      "score": 5.6
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "centreon-archived",
+      "similarity": 0.412252277135849,
+      "score": 5.4
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "grafana",
+      "similarity": 0.41092631220817566,
+      "score": 8.0
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "hyperdx",
+      "similarity": 0.40611791610717773,
+      "score": 8.6
+    },
+    {
+      "source": "china-dictatorship",
+      "similar": "IceFireDB",
+      "similarity": 0.3989930748939514,
+      "score": 4.4
+    },
+    {
+      "source": ".github",
+      "similar": "china-dictatorship",
+      "similarity": 1.0,
+      "score": 8.1
+    },
+    {
+      "source": ".github",
+      "similar": "DumpsterFire",
+      "similarity": 0.4878085255622864,
+      "score": 4.2
+    },
+    {
+      "source": ".github",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.45911529660224915,
+      "score": 8.4
+    },
+    {
+      "source": ".github",
+      "similar": "easy-monitor",
+      "similarity": 0.42472392320632935,
+      "score": 10
+    },
+    {
+      "source": ".github",
+      "similar": "SleekDB",
+      "similarity": 0.41895031929016113,
+      "score": 3.8
+    },
+    {
+      "source": ".github",
+      "similar": "ardb",
+      "similarity": 0.412397176027298,
+      "score": 5.6
+    },
+    {
+      "source": ".github",
+      "similar": "centreon-archived",
+      "similarity": 0.412252277135849,
+      "score": 5.4
+    },
+    {
+      "source": ".github",
+      "similar": "grafana",
+      "similarity": 0.41092631220817566,
+      "score": 8.0
+    },
+    {
+      "source": ".github",
+      "similar": "hyperdx",
+      "similarity": 0.40611791610717773,
+      "score": 8.6
+    },
+    {
+      "source": ".github",
+      "similar": "IceFireDB",
+      "similarity": 0.3989930748939514,
+      "score": 4.4
+    },
+    {
+      "source": "grafana",
+      "similar": "flask-profiler",
+      "similarity": 0.7365244030952454,
+      "score": 3.8
+    },
+    {
+      "source": "grafana",
+      "similar": "goaccess",
+      "similarity": 0.6371422410011292,
+      "score": 6.7
+    },
+    {
+      "source": "grafana",
+      "similar": "centreon-archived",
+      "similarity": 0.6167982816696167,
+      "score": 5.4
+    },
+    {
+      "source": "grafana",
+      "similar": "hyperdx",
+      "similarity": 0.6145350933074951,
+      "score": 8.6
+    },
+    {
+      "source": "grafana",
+      "similar": "redix",
+      "similarity": 0.5615662336349487,
+      "score": 2.1
+    },
+    {
+      "source": "grafana",
+      "similar": "lmdb-js",
+      "similarity": 0.5348262190818787,
+      "score": 4.2
+    },
+    {
+      "source": "grafana",
+      "similar": "gluesql",
+      "similarity": 0.5316141247749329,
+      "score": 7.5
+    },
+    {
+      "source": "grafana",
+      "similar": "kvrocks",
+      "similarity": 0.4729718267917633,
+      "score": 7.3
+    },
+    {
+      "source": "grafana",
+      "similar": "bitalostored",
+      "similarity": 0.47000908851623535,
+      "score": 5.3
+    },
+    {
+      "source": "grafana",
+      "similar": "easy-monitor",
+      "similarity": 0.44786983728408813,
+      "score": 10
+    },
+    {
+      "source": "goaccess",
+      "similar": "flask-profiler",
+      "similarity": 0.8549023270606995,
+      "score": 3.8
+    },
+    {
+      "source": "goaccess",
+      "similar": "centreon-archived",
+      "similarity": 0.7102588415145874,
+      "score": 5.4
+    },
+    {
+      "source": "goaccess",
+      "similar": "hyperdx",
+      "similarity": 0.7087529897689819,
+      "score": 8.6
+    },
+    {
+      "source": "goaccess",
+      "similar": "grafana",
+      "similarity": 0.6371422410011292,
+      "score": 8.0
+    },
+    {
+      "source": "goaccess",
+      "similar": "easy-monitor",
+      "similarity": 0.5125216841697693,
+      "score": 10
+    },
+    {
+      "source": "goaccess",
+      "similar": "AlgoWiki",
+      "similarity": 0.48565587401390076,
+      "score": 8
+    },
+    {
+      "source": "goaccess",
+      "similar": "bugbug",
+      "similarity": 0.4379868805408478,
+      "score": 6.5
+    },
+    {
+      "source": "goaccess",
+      "similar": "china-dictatorship",
+      "similarity": 0.3902962803840637,
+      "score": 8.1
+    },
+    {
+      "source": "goaccess",
+      "similar": ".github",
+      "similarity": 0.3902962803840637,
+      "score": 6.4
+    },
+    {
+      "source": "goaccess",
+      "similar": "DumpsterFire",
+      "similarity": 0.37626153230667114,
+      "score": 4.2
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "centreon-archived",
+      "similarity": 0.6222147941589355,
+      "score": 5.4
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "Red-Teaming-Toolkit",
+      "similarity": 0.609244167804718,
+      "score": 7.7
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "cookiecutter-fastapi",
+      "similarity": 0.5901080369949341,
+      "score": 3.3
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.5653121471405029,
+      "score": 7.0
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.5561141967773438,
+      "score": 2.8
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "aideml",
+      "similarity": 0.5530744791030884,
+      "score": 3.5
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.5320479869842529,
+      "score": 6.7
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "ml-engineering",
+      "similarity": 0.526531457901001,
+      "score": 8.0
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "Awesome-Books-Notes",
+      "similarity": 0.4761365056037903,
+      "score": 8
+    },
+    {
+      "source": "RagaAI-Catalyst",
+      "similar": "china-dictatorship",
+      "similarity": 0.45911529660224915,
+      "score": 8.1
+    },
+    {
+      "source": "hyperdx",
+      "similar": "flask-profiler",
+      "similarity": 0.8222581148147583,
+      "score": 3.8
+    },
+    {
+      "source": "hyperdx",
+      "similar": "goaccess",
+      "similarity": 0.7087530493736267,
+      "score": 6.7
+    },
+    {
+      "source": "hyperdx",
+      "similar": "centreon-archived",
+      "similarity": 0.6846209168434143,
+      "score": 5.4
+    },
+    {
+      "source": "hyperdx",
+      "similar": "EasyJob",
+      "similarity": 0.6192060708999634,
+      "score": 9
+    },
+    {
+      "source": "hyperdx",
+      "similar": "grafana",
+      "similarity": 0.6145350933074951,
+      "score": 8.0
+    },
+    {
+      "source": "hyperdx",
+      "similar": "markdown-online-editor",
+      "similarity": 0.539830207824707,
+      "score": 9
+    },
+    {
+      "source": "hyperdx",
+      "similar": "Developer-Zero-To-Mastery",
+      "similarity": 0.5376420021057129,
+      "score": 10
+    },
+    {
+      "source": "hyperdx",
+      "similar": "Front-end-tutorial",
+      "similarity": 0.5246129035949707,
+      "score": 7
+    },
+    {
+      "source": "hyperdx",
+      "similar": "cuber-gem",
+      "similarity": 0.5102572441101074,
+      "score": 2.3
+    },
+    {
+      "source": "hyperdx",
+      "similar": "easy-monitor",
+      "similarity": 0.4953796863555908,
+      "score": 10
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "goaccess",
+      "similarity": 0.8549023270606995,
+      "score": 6.7
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "hyperdx",
+      "similarity": 0.8222581148147583,
+      "score": 8.6
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "centreon-archived",
+      "similarity": 0.8216782212257385,
+      "score": 5.4
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "grafana",
+      "similarity": 0.7365244030952454,
+      "score": 8.0
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "easy-monitor",
+      "similarity": 0.5898503065109253,
+      "score": 10
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "bugbug",
+      "similarity": 0.5095453858375549,
+      "score": 6.5
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "DumpsterFire",
+      "similarity": 0.40551286935806274,
+      "score": 4.2
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "1000_Projects",
+      "similarity": 0.404295414686203,
+      "score": 8
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "EasyJob",
+      "similarity": 0.39246198534965515,
+      "score": 9
+    },
+    {
+      "source": "flask-profiler",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.3919464349746704,
+      "score": 8.4
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "flask-profiler",
+      "similarity": 0.8216782212257385,
+      "score": 3.8
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "bugbug",
+      "similarity": 0.8150783777236938,
+      "score": 6.5
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "goaccess",
+      "similarity": 0.7102588415145874,
+      "score": 6.7
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "hyperdx",
+      "similarity": 0.6846209168434143,
+      "score": 8.6
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "1000_Projects",
+      "similarity": 0.6406971216201782,
+      "score": 8
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "DumpsterFire",
+      "similarity": 0.6386885643005371,
+      "score": 4.2
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "RagaAI-Catalyst",
+      "similarity": 0.6222149133682251,
+      "score": 8.4
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "grafana",
+      "similarity": 0.6167982816696167,
+      "score": 8.0
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.6077181696891785,
+      "score": 2.8
+    },
+    {
+      "source": "centreon-archived",
+      "similar": "aideml",
+      "similarity": 0.6066982746124268,
+      "score": 3.5
+    },
+    {
+      "source": "kvrocks",
+      "similar": "bitalostored",
+      "similarity": 0.9986067414283752,
+      "score": 5.3
+    },
+    {
+      "source": "kvrocks",
+      "similar": "redix",
+      "similarity": 0.8907631635665894,
+      "score": 2.1
+    },
+    {
+      "source": "kvrocks",
+      "similar": "lmdb-js",
+      "similarity": 0.8512752652168274,
+      "score": 4.2
+    },
+    {
+      "source": "kvrocks",
+      "similar": "gluesql",
+      "similarity": 0.8481819033622742,
+      "score": 7.5
+    },
+    {
+      "source": "kvrocks",
+      "similar": "ardb",
+      "similarity": 0.6881595849990845,
+      "score": 5.6
+    },
+    {
+      "source": "kvrocks",
+      "similar": "objectbox-go",
+      "similarity": 0.6473684906959534,
+      "score": 3.2
+    },
+    {
+      "source": "kvrocks",
+      "similar": "IceFireDB",
+      "similarity": 0.6434969902038574,
+      "score": 4.4
+    },
+    {
+      "source": "kvrocks",
+      "similar": "defradb",
+      "similarity": 0.6339623332023621,
+      "score": 3.8
+    },
+    {
+      "source": "kvrocks",
+      "similar": "objectbox-swift",
+      "similarity": 0.6064357757568359,
+      "score": 3.8
+    },
+    {
+      "source": "kvrocks",
+      "similar": "tera",
+      "similarity": 0.591411292552948,
+      "score": 6.6
+    },
+    {
+      "source": "gluesql",
+      "similar": "lmdb-js",
+      "similarity": 0.9996874928474426,
+      "score": 4.2
+    },
+    {
+      "source": "gluesql",
+      "similar": "bitalostored",
+      "similarity": 0.8499343991279602,
+      "score": 5.3
+    },
+    {
+      "source": "gluesql",
+      "similar": "kvrocks",
+      "similarity": 0.8481819033622742,
+      "score": 7.3
+    },
+    {
+      "source": "gluesql",
+      "similar": "objectbox-go",
+      "similarity": 0.7586596012115479,
+      "score": 3.2
+    },
+    {
+      "source": "gluesql",
+      "similar": "redix",
+      "similarity": 0.7568933963775635,
+      "score": 2.1
+    },
+    {
+      "source": "gluesql",
+      "similar": "defradb",
+      "similarity": 0.7151892185211182,
+      "score": 3.8
+    },
+    {
+      "source": "gluesql",
+      "similar": "objectbox-swift",
+      "similarity": 0.7129068374633789,
+      "score": 3.8
+    },
+    {
+      "source": "gluesql",
+      "similar": "tera",
+      "similarity": 0.706709086894989,
+      "score": 6.6
+    },
+    {
+      "source": "gluesql",
+      "similar": "IceFireDB",
+      "similarity": 0.697728157043457,
+      "score": 4.4
+    },
+    {
+      "source": "gluesql",
+      "similar": "Paper",
+      "similarity": 0.6659371852874756,
+      "score": 5.3
+    },
+    {
+      "source": "Paper",
+      "similar": "lmdb-js",
+      "similarity": 0.667518675327301,
+      "score": 4.2
+    },
+    {
+      "source": "Paper",
+      "similar": "gluesql",
+      "similarity": 0.6659371852874756,
+      "score": 7.5
+    },
+    {
+      "source": "Paper",
+      "similar": "ardb",
+      "similarity": 0.5978062152862549,
+      "score": 5.6
+    },
+    {
+      "source": "Paper",
+      "similar": "kvrocks",
+      "similarity": 0.5769253969192505,
+      "score": 7.3
+    },
+    {
+      "source": "Paper",
+      "similar": "bitalostored",
+      "similarity": 0.5757514238357544,
+      "score": 5.3
+    },
+    {
+      "source": "Paper",
+      "similar": "redix",
+      "similarity": 0.5135069489479065,
+      "score": 2.1
+    },
+    {
+      "source": "Paper",
+      "similar": "objectbox-go",
+      "similarity": 0.5072430372238159,
+      "score": 3.2
+    },
+    {
+      "source": "Paper",
+      "similar": "IceFireDB",
+      "similarity": 0.49114716053009033,
+      "score": 4.4
+    },
+    {
+      "source": "Paper",
+      "similar": "defradb",
+      "similarity": 0.49027758836746216,
+      "score": 3.8
+    },
+    {
+      "source": "Paper",
+      "similar": "objectbox-swift",
+      "similarity": 0.4756641983985901,
+      "score": 3.8
+    },
+    {
+      "source": "unqlite",
+      "similar": "SleekDB",
+      "similarity": 0.8929359912872314,
+      "score": 3.8
+    },
+    {
+      "source": "unqlite",
+      "similar": "gluesql",
+      "similarity": 0.5813032984733582,
+      "score": 7.5
+    },
+    {
+      "source": "unqlite",
+      "similar": "lmdb-js",
+      "similarity": 0.5809367895126343,
+      "score": 4.2
+    },
+    {
+      "source": "unqlite",
+      "similar": "markdown-online-editor",
+      "similarity": 0.5151563882827759,
+      "score": 9
+    },
+    {
+      "source": "unqlite",
+      "similar": "cuber-gem",
+      "similarity": 0.49495193362236023,
+      "score": 2.3
+    },
+    {
+      "source": "unqlite",
+      "similar": "bitalostored",
+      "similarity": 0.4928629398345947,
+      "score": 5.3
+    },
+    {
+      "source": "unqlite",
+      "similar": "kvrocks",
+      "similarity": 0.4911476671695709,
+      "score": 7.3
+    },
+    {
+      "source": "unqlite",
+      "similar": "objectbox-go",
+      "similarity": 0.44073912501335144,
+      "score": 3.2
+    },
+    {
+      "source": "unqlite",
+      "similar": "redix",
+      "similarity": 0.4384169578552246,
+      "score": 2.1
+    },
+    {
+      "source": "unqlite",
+      "similar": "objectbox-swift",
+      "similarity": 0.4142873287200928,
+      "score": 3.8
+    },
+    {
+      "source": "bitalostored",
+      "similar": "kvrocks",
+      "similarity": 0.9986067414283752,
+      "score": 7.3
+    },
+    {
+      "source": "bitalostored",
+      "similar": "redix",
+      "similarity": 0.8896552324295044,
+      "score": 2.1
+    },
+    {
+      "source": "bitalostored",
+      "similar": "lmdb-js",
+      "similarity": 0.8528095483779907,
+      "score": 4.2
+    },
+    {
+      "source": "bitalostored",
+      "similar": "gluesql",
+      "similarity": 0.8499343395233154,
+      "score": 7.5
+    },
+    {
+      "source": "bitalostored",
+      "similar": "ardb",
+      "similarity": 0.6873847246170044,
+      "score": 5.6
+    },
+    {
+      "source": "bitalostored",
+      "similar": "objectbox-go",
+      "similarity": 0.6481072306632996,
+      "score": 3.2
+    },
+    {
+      "source": "bitalostored",
+      "similar": "IceFireDB",
+      "similarity": 0.6339877843856812,
+      "score": 4.4
+    },
+    {
+      "source": "bitalostored",
+      "similar": "defradb",
+      "similarity": 0.6294217705726624,
+      "score": 3.8
+    },
+    {
+      "source": "bitalostored",
+      "similar": "objectbox-swift",
+      "similarity": 0.6073912978172302,
+      "score": 3.8
+    },
+    {
+      "source": "bitalostored",
+      "similar": "tera",
+      "similarity": 0.5943135619163513,
+      "score": 6.6
+    },
+    {
+      "source": "tera",
+      "similar": "objectbox-swift",
+      "similarity": 0.9979465007781982,
+      "score": 3.8
+    },
+    {
+      "source": "tera",
+      "similar": "defradb",
+      "similarity": 0.9730541706085205,
+      "score": 3.8
+    },
+    {
+      "source": "tera",
+      "similar": "IceFireDB",
+      "similarity": 0.9217901229858398,
+      "score": 4.4
+    },
+    {
+      "source": "tera",
+      "similar": "ml-engineering",
+      "similarity": 0.7081733345985413,
+      "score": 8.0
+    },
+    {
+      "source": "tera",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7070581912994385,
+      "score": 6.7
+    },
+    {
+      "source": "tera",
+      "similar": "gluesql",
+      "similarity": 0.706709086894989,
+      "score": 7.5
+    },
+    {
+      "source": "tera",
+      "similar": "lmdb-js",
+      "similarity": 0.7053365707397461,
+      "score": 4.2
+    },
+    {
+      "source": "tera",
+      "similar": "aideml",
+      "similarity": 0.6948862075805664,
+      "score": 3.5
+    },
+    {
+      "source": "tera",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.6905902028083801,
+      "score": 2.8
+    },
+    {
+      "source": "tera",
+      "similar": "Database-Notes",
+      "similarity": 0.6454834938049316,
+      "score": 9
+    },
+    {
+      "source": "ardb",
+      "similar": "objectbox-go",
+      "similarity": 0.7598101496696472,
+      "score": 3.2
+    },
+    {
+      "source": "ardb",
+      "similar": "kvrocks",
+      "similarity": 0.6881595849990845,
+      "score": 7.3
+    },
+    {
+      "source": "ardb",
+      "similar": "bitalostored",
+      "similarity": 0.6873847246170044,
+      "score": 5.3
+    },
+    {
+      "source": "ardb",
+      "similar": "redix",
+      "similarity": 0.6124552488327026,
+      "score": 2.1
+    },
+    {
+      "source": "ardb",
+      "similar": "Paper",
+      "similarity": 0.5978062152862549,
+      "score": 5.3
+    },
+    {
+      "source": "ardb",
+      "similar": "lmdb-js",
+      "similarity": 0.5848020315170288,
+      "score": 4.2
+    },
+    {
+      "source": "ardb",
+      "similar": "gluesql",
+      "similarity": 0.5819815993309021,
+      "score": 7.5
+    },
+    {
+      "source": "ardb",
+      "similar": "IceFireDB",
+      "similarity": 0.4485325515270233,
+      "score": 4.4
+    },
+    {
+      "source": "ardb",
+      "similar": "defradb",
+      "similarity": 0.43863701820373535,
+      "score": 3.8
+    },
+    {
+      "source": "ardb",
+      "similar": "objectbox-swift",
+      "similarity": 0.41638171672821045,
+      "score": 3.8
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "ardb",
+      "similarity": 0.7598101496696472,
+      "score": 5.6
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "lmdb-js",
+      "similarity": 0.7590457201004028,
+      "score": 4.2
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "gluesql",
+      "similarity": 0.7586595416069031,
+      "score": 7.5
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "bitalostored",
+      "similarity": 0.6481072306632996,
+      "score": 5.3
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "kvrocks",
+      "similarity": 0.6473684906959534,
+      "score": 7.3
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "redix",
+      "similarity": 0.5772287845611572,
+      "score": 2.1
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "defradb",
+      "similarity": 0.5470927357673645,
+      "score": 3.8
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "objectbox-swift",
+      "similarity": 0.5411550402641296,
+      "score": 3.8
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "IceFireDB",
+      "similarity": 0.5378887057304382,
+      "score": 4.4
+    },
+    {
+      "source": "objectbox-go",
+      "similar": "tera",
+      "similarity": 0.5348276495933533,
+      "score": 6.6
+    },
+    {
+      "source": "redix",
+      "similar": "kvrocks",
+      "similarity": 0.8907632827758789,
+      "score": 7.3
+    },
+    {
+      "source": "redix",
+      "similar": "bitalostored",
+      "similarity": 0.889655351638794,
+      "score": 5.3
+    },
+    {
+      "source": "redix",
+      "similar": "lmdb-js",
+      "similarity": 0.7591831684112549,
+      "score": 4.2
+    },
+    {
+      "source": "redix",
+      "similar": "gluesql",
+      "similarity": 0.7568933963775635,
+      "score": 7.5
+    },
+    {
+      "source": "redix",
+      "similar": "ardb",
+      "similarity": 0.6124553084373474,
+      "score": 5.6
+    },
+    {
+      "source": "redix",
+      "similar": "objectbox-go",
+      "similarity": 0.577228844165802,
+      "score": 3.2
+    },
+    {
+      "source": "redix",
+      "similar": "IceFireDB",
+      "similarity": 0.5687442421913147,
+      "score": 4.4
+    },
+    {
+      "source": "redix",
+      "similar": "defradb",
+      "similarity": 0.5628505945205688,
+      "score": 3.8
+    },
+    {
+      "source": "redix",
+      "similar": "grafana",
+      "similarity": 0.5615662336349487,
+      "score": 8.0
+    },
+    {
+      "source": "redix",
+      "similar": "objectbox-swift",
+      "similarity": 0.5409618020057678,
+      "score": 3.8
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "defradb",
+      "similarity": 0.9863370656967163,
+      "score": 3.8
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "objectbox-swift",
+      "similarity": 0.9447209239006042,
+      "score": 3.8
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "tera",
+      "similarity": 0.9217902421951294,
+      "score": 6.6
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.773713231086731,
+      "score": 7.0
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.7384172677993774,
+      "score": 2.8
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "aideml",
+      "similarity": 0.7338570356369019,
+      "score": 3.5
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "lmdb-js",
+      "similarity": 0.7049497365951538,
+      "score": 4.2
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "gluesql",
+      "similarity": 0.697728157043457,
+      "score": 7.5
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.6933099031448364,
+      "score": 6.7
+    },
+    {
+      "source": "IceFireDB",
+      "similar": "ml-engineering",
+      "similarity": 0.6841633319854736,
+      "score": 8.0
+    },
+    {
+      "source": "SleekDB",
+      "similar": "unqlite",
+      "similarity": 0.8929359912872314,
+      "score": 5.1
+    },
+    {
+      "source": "SleekDB",
+      "similar": "lmdb-js",
+      "similarity": 0.5256016254425049,
+      "score": 4.2
+    },
+    {
+      "source": "SleekDB",
+      "similar": "gluesql",
+      "similarity": 0.5249032378196716,
+      "score": 7.5
+    },
+    {
+      "source": "SleekDB",
+      "similar": "markdown-online-editor",
+      "similarity": 0.47058892250061035,
+      "score": 9
+    },
+    {
+      "source": "SleekDB",
+      "similar": "kvrocks",
+      "similarity": 0.4511185586452484,
+      "score": 7.3
+    },
+    {
+      "source": "SleekDB",
+      "similar": "bitalostored",
+      "similarity": 0.45085516571998596,
+      "score": 5.3
+    },
+    {
+      "source": "SleekDB",
+      "similar": "cuber-gem",
+      "similarity": 0.4492415487766266,
+      "score": 2.3
+    },
+    {
+      "source": "SleekDB",
+      "similar": "china-dictatorship",
+      "similarity": 0.4189503788948059,
+      "score": 8.1
+    },
+    {
+      "source": "SleekDB",
+      "similar": ".github",
+      "similarity": 0.4189503788948059,
+      "score": 6.4
+    },
+    {
+      "source": "SleekDB",
+      "similar": "Front-end-tutorial",
+      "similarity": 0.4088095724582672,
+      "score": 7
+    },
+    {
+      "source": "defradb",
+      "similar": "IceFireDB",
+      "similarity": 0.9863370060920715,
+      "score": 4.4
+    },
+    {
+      "source": "defradb",
+      "similar": "objectbox-swift",
+      "similarity": 0.9858137369155884,
+      "score": 3.8
+    },
+    {
+      "source": "defradb",
+      "similar": "tera",
+      "similarity": 0.9730541706085205,
+      "score": 6.6
+    },
+    {
+      "source": "defradb",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.732392430305481,
+      "score": 2.8
+    },
+    {
+      "source": "defradb",
+      "similar": "aideml",
+      "similarity": 0.7316704392433167,
+      "score": 3.5
+    },
+    {
+      "source": "defradb",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.7278162240982056,
+      "score": 7.0
+    },
+    {
+      "source": "defradb",
+      "similar": "lmdb-js",
+      "similarity": 0.7188675403594971,
+      "score": 4.2
+    },
+    {
+      "source": "defradb",
+      "similar": "gluesql",
+      "similarity": 0.7151891589164734,
+      "score": 7.5
+    },
+    {
+      "source": "defradb",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7126362323760986,
+      "score": 6.7
+    },
+    {
+      "source": "defradb",
+      "similar": "ml-engineering",
+      "similarity": 0.7077212333679199,
+      "score": 8.0
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "gluesql",
+      "similarity": 0.9996874332427979,
+      "score": 7.5
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "bitalostored",
+      "similarity": 0.8528095483779907,
+      "score": 5.3
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "kvrocks",
+      "similarity": 0.8512752652168274,
+      "score": 7.3
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "redix",
+      "similarity": 0.7591831088066101,
+      "score": 2.1
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "objectbox-go",
+      "similarity": 0.7590457201004028,
+      "score": 3.2
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "defradb",
+      "similarity": 0.7188675403594971,
+      "score": 3.8
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "objectbox-swift",
+      "similarity": 0.7129586935043335,
+      "score": 3.8
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "tera",
+      "similarity": 0.7053365707397461,
+      "score": 6.6
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "IceFireDB",
+      "similarity": 0.704949676990509,
+      "score": 4.4
+    },
+    {
+      "source": "lmdb-js",
+      "similar": "Paper",
+      "similarity": 0.667518675327301,
+      "score": 5.3
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "tera",
+      "similarity": 0.9979466199874878,
+      "score": 6.6
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "defradb",
+      "similarity": 0.9858138561248779,
+      "score": 3.8
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "IceFireDB",
+      "similarity": 0.9447209239006042,
+      "score": 4.4
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "lmdb-js",
+      "similarity": 0.7129587531089783,
+      "score": 4.2
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "gluesql",
+      "similarity": 0.7129068970680237,
+      "score": 7.5
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "NBA-Machine-Learning-Sports-Betting",
+      "similarity": 0.7125168442726135,
+      "score": 6.7
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "ml-engineering",
+      "similarity": 0.7119187116622925,
+      "score": 8.0
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "aideml",
+      "similarity": 0.7088639140129089,
+      "score": 3.5
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "AI-ML-Cheatsheets",
+      "similarity": 0.706083357334137,
+      "score": 2.8
+    },
+    {
+      "source": "objectbox-swift",
+      "similar": "AI-Infra-from-Zero-to-Hero",
+      "similarity": 0.6606922149658203,
+      "score": 7.0
+    }
+  ],
+  "agentdb_opportunities": [
+    {
+      "project": "Red-Teaming-Toolkit",
+      "category": "Security Tools",
+      "agentdb_score": 7,
+      "reasons": [
+        "Multi-user collaboration \u2192 AgentDB for shared state",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 1110.0,
+      "url": "https://github.com/infosecn1nja/Red-Teaming-Toolkit"
+    },
+    {
+      "project": "DumpsterFire",
+      "category": "Security Tools",
+      "agentdb_score": 7,
+      "reasons": [
+        "Multi-user collaboration \u2192 AgentDB for shared state",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 114.0,
+      "url": "https://github.com/TryCatchHCF/DumpsterFire"
+    },
+    {
+      "project": "NBA-Machine-Learning-Sports-Betting",
+      "category": "AI/ML Tools",
+      "agentdb_score": 6,
+      "reasons": [
+        "Analytics/monitoring \u2192 AgentDB for time-series storage",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 220.5,
+      "url": "https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting"
+    },
+    {
+      "project": "china-dictatorship",
+      "category": "Security Tools",
+      "agentdb_score": 14,
+      "reasons": [
+        "Real-time data needs \u2192 AgentDB for fast queries",
+        "Multi-user collaboration \u2192 AgentDB for shared state",
+        "Analytics/monitoring \u2192 AgentDB for time-series storage",
+        "State management \u2192 AgentDB for persistence",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 300.0,
+      "url": "https://github.com/cirosantilli/china-dictatorship"
+    },
+    {
+      "project": ".github",
+      "category": "Security Tools",
+      "agentdb_score": 14,
+      "reasons": [
+        "Real-time data needs \u2192 AgentDB for fast queries",
+        "Multi-user collaboration \u2192 AgentDB for shared state",
+        "Analytics/monitoring \u2192 AgentDB for time-series storage",
+        "State management \u2192 AgentDB for persistence",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 186.0,
+      "url": "https://github.com/gege-circle/.github"
+    },
+    {
+      "project": "goaccess",
+      "category": "Analytics Platform",
+      "agentdb_score": 5,
+      "reasons": [
+        "Real-time data needs \u2192 AgentDB for fast queries",
+        "Analytics/monitoring \u2192 AgentDB for time-series storage"
+      ],
+      "revenue_boost": 1500.0,
+      "url": "https://github.com/allinurl/goaccess"
+    },
+    {
+      "project": "RagaAI-Catalyst",
+      "category": "AI/ML Tools",
+      "agentdb_score": 6,
+      "reasons": [
+        "Analytics/monitoring \u2192 AgentDB for time-series storage",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 1500.0,
+      "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst"
+    },
+    {
+      "project": "centreon-archived",
+      "category": "AI/ML Tools",
+      "agentdb_score": 6,
+      "reasons": [
+        "Analytics/monitoring \u2192 AgentDB for time-series storage",
+        "AI/LLM features \u2192 AgentDB for context/memory"
+      ],
+      "revenue_boost": 85.5,
+      "url": "https://github.com/centreon-archive/centreon-archived"
+    }
+  ],
+  "point_history": [
+    {
+      "points": 210,
+      "reason": "Discovered 42 repos",
+      "timestamp": "2025-10-24T11:19:50.559139"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.570879"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.570927"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.570958"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.570973"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.570986"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cookiecutter-fastapi",
+      "timestamp": "2025-10-24T11:19:50.571011"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.571033"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.571046"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.571067"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.571088"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.571112"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.571146"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.571167"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.571187"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.571199"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.571344"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.576087"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.576137"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.576167"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.576182"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.576206"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.576220"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.576245"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.576257"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.576294"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.576307"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.576326"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.576345"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.576378"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.576419"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.576437"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.576457"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.576476"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.576489"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.581668"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.581715"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.581746"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.581767"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.581826"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.581864"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.581914"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.581938"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.581959"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.581999"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.582023"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.582062"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.582076"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.582098"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.582118"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.582137"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.582150"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.582170"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.582183"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.592170"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.592236"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.592282"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.592306"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.592326"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.592536"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.592568"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.592611"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.592635"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.592673"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.592697"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.592733"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.592756"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.592790"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.592825"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.592847"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.592881"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.592916"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.592940"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.601947"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602016"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.602067"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.602104"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602130"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: pystinger",
+      "timestamp": "2025-10-24T11:19:50.602165"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602188"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.602224"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602246"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.602454"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Viper",
+      "timestamp": "2025-10-24T11:19:50.602497"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602521"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: 1000_Projects",
+      "timestamp": "2025-10-24T11:19:50.602571"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602595"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.602636"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.602661"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.602700"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.602962"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.610685"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.610750"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.610811"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.610837"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.610859"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.610903"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.610925"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.610965"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.610990"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.611028"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.611051"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.611091"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.611115"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.611152"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.611188"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.611211"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.611248"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.611280"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.611306"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.620400"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.620464"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.620491"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.620539"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.620567"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.620610"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.620636"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.620681"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.620705"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.620743"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.620768"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.620807"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.620844"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.620869"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.620907"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.620931"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.620969"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.621006"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.621031"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.629730"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.629796"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.629845"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.629872"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.629912"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.629937"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.629961"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.630002"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.630023"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.630059"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.630079"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RedTeam-Physical-Tools",
+      "timestamp": "2025-10-24T11:19:50.630114"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.630153"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.630179"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.630252"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.630276"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: dvcs-ripper",
+      "timestamp": "2025-10-24T11:19:50.630314"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.630339"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.630401"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.638391"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.638461"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.638489"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.638539"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.638580"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.638621"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.638644"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.638683"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Penetration-Testing-Tools",
+      "timestamp": "2025-10-24T11:19:50.638720"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: red_team_attack_lab",
+      "timestamp": "2025-10-24T11:19:50.638796"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.638834"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.638857"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.638895"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cookiecutter-fastapi",
+      "timestamp": "2025-10-24T11:19:50.638932"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.647959"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.648023"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.648077"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.648103"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.648144"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.648170"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.648215"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.648240"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.648288"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.648331"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.648355"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.648403"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.648445"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.648484"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gaia",
+      "timestamp": "2025-10-24T11:19:50.648651"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.648700"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.648739"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.657513"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.657564"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.657616"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.657634"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.657658"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.657695"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.657717"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.657730"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.657743"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.657763"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.657784"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.657797"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.657816"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.657828"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.657847"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.657867"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.657892"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.662805"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.662850"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.662866"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.662893"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.662920"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: assessment-mindset",
+      "timestamp": "2025-10-24T11:19:50.662943"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Cybersecurity-Handbooks",
+      "timestamp": "2025-10-24T11:19:50.662963"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.662985"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.663007"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.663019"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: afrog",
+      "timestamp": "2025-10-24T11:19:50.663039"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.663051"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: BounceBack",
+      "timestamp": "2025-10-24T11:19:50.663070"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.663091"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.667582"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.667632"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.667672"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.667740"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.667768"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.667818"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.667845"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.667889"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.667915"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.667957"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.667984"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.668028"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.668071"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gaia",
+      "timestamp": "2025-10-24T11:19:50.668114"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.668185"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.668229"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.676999"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.677049"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.677065"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.677098"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.677112"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.677136"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.677149"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.677174"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.677187"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.677200"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.677222"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.677234"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.677246"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.677266"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.677303"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.677330"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.677351"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.677393"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gaia",
+      "timestamp": "2025-10-24T11:19:50.677414"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.677562"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.684877"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.684944"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.684999"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.685027"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.685070"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.685095"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.685119"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.685160"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.685216"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.685240"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.685283"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.685308"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.685330"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.685396"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.685440"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.685479"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.685504"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.685543"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.685587"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.694783"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.694848"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.694900"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.694956"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.695238"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.695280"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.695302"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.695334"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.695347"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.695379"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.695404"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.695416"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.695427"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.695447"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.695466"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.695478"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.695497"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.695517"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.695554"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.700562"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700611"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.700641"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700655"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Books-Notes",
+      "timestamp": "2025-10-24T11:19:50.700676"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700690"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.700712"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.700733"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.700756"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.700776"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700788"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.700808"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700820"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.700860"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700873"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome_GPT_Super_Prompting",
+      "timestamp": "2025-10-24T11:19:50.700892"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.700904"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.708457"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.708522"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: 1000_Projects",
+      "timestamp": "2025-10-24T11:19:50.708565"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.708593"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.708635"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.708683"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.708710"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.708754"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.708805"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.708883"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DistributedSystem-Notes",
+      "timestamp": "2025-10-24T11:19:50.708926"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.708955"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.708995"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.709021"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Developer-Zero-To-Mastery",
+      "timestamp": "2025-10-24T11:19:50.709073"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.709111"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.715486"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.715572"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.715601"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.715640"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.715678"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.715713"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.715736"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Developer-Zero-To-Mastery",
+      "timestamp": "2025-10-24T11:19:50.715799"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.715824"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Front-end-tutorial",
+      "timestamp": "2025-10-24T11:19:50.715858"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.715880"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cuber-gem",
+      "timestamp": "2025-10-24T11:19:50.715918"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.715956"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.715980"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.716016"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gaia",
+      "timestamp": "2025-10-24T11:19:50.721162"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.721214"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721232"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: unqlite",
+      "timestamp": "2025-10-24T11:19:50.721255"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: EasyJob",
+      "timestamp": "2025-10-24T11:19:50.721294"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721307"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: SleekDB",
+      "timestamp": "2025-10-24T11:19:50.721327"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: markdown-online-editor",
+      "timestamp": "2025-10-24T11:19:50.721345"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721374"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Developer-Zero-To-Mastery",
+      "timestamp": "2025-10-24T11:19:50.721394"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721406"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Front-end-tutorial",
+      "timestamp": "2025-10-24T11:19:50.721423"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721435"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: katib",
+      "timestamp": "2025-10-24T11:19:50.721456"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721467"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.721486"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.721497"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: .github",
+      "timestamp": "2025-10-24T11:19:50.745895"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.745958"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.746011"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.746053"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.746082"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.746120"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.746146"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: SleekDB",
+      "timestamp": "2025-10-24T11:19:50.746188"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.746226"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.746267"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.746308"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.746332"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.746401"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.746429"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.746471"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.750747"
+    },
+    {
+      "points": 50,
+      "reason": "Perfect AgentDB fit!",
+      "timestamp": "2025-10-24T11:19:50.750809"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.770560"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.770620"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.770646"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.770689"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.770728"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.770750"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.770783"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.770808"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: SleekDB",
+      "timestamp": "2025-10-24T11:19:50.770842"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.770879"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.770915"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.770949"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.770970"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.771005"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.771027"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.771065"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: .github",
+      "timestamp": "2025-10-24T11:19:50.774631"
+    },
+    {
+      "points": 50,
+      "reason": "Perfect AgentDB fit!",
+      "timestamp": "2025-10-24T11:19:50.774690"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: flask-profiler",
+      "timestamp": "2025-10-24T11:19:50.782431"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: goaccess",
+      "timestamp": "2025-10-24T11:19:50.782514"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.782555"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.782597"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.782620"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.782656"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.782690"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.782725"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.782745"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.782784"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.782807"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.782842"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.782876"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.782899"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: flask-profiler",
+      "timestamp": "2025-10-24T11:19:50.790898"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.790958"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.791001"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.791041"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.791064"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.791103"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.791126"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.791162"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.791186"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AlgoWiki",
+      "timestamp": "2025-10-24T11:19:50.791219"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.791241"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.791278"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.791312"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.791333"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: .github",
+      "timestamp": "2025-10-24T11:19:50.791390"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.791432"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: goaccess",
+      "timestamp": "2025-10-24T11:19:50.791638"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.799731"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Red-Teaming-Toolkit",
+      "timestamp": "2025-10-24T11:19:50.799812"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.799838"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cookiecutter-fastapi",
+      "timestamp": "2025-10-24T11:19:50.799885"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.799924"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.799949"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.799987"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.800023"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.800059"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.800094"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.800116"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Awesome-Books-Notes",
+      "timestamp": "2025-10-24T11:19:50.800148"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.800172"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.800208"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.800234"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.800468"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: flask-profiler",
+      "timestamp": "2025-10-24T11:19:50.809806"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.809867"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: goaccess",
+      "timestamp": "2025-10-24T11:19:50.809918"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.809966"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: EasyJob",
+      "timestamp": "2025-10-24T11:19:50.810009"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810038"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.810085"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810111"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: markdown-online-editor",
+      "timestamp": "2025-10-24T11:19:50.810149"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810176"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Developer-Zero-To-Mastery",
+      "timestamp": "2025-10-24T11:19:50.810217"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810243"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Front-end-tutorial",
+      "timestamp": "2025-10-24T11:19:50.810283"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810310"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cuber-gem",
+      "timestamp": "2025-10-24T11:19:50.810355"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.810425"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.810451"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: goaccess",
+      "timestamp": "2025-10-24T11:19:50.821181"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.821245"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.821303"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.821333"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821383"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.821436"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.821466"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.821510"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821538"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: easy-monitor",
+      "timestamp": "2025-10-24T11:19:50.821583"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821612"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.821656"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.821697"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: 1000_Projects",
+      "timestamp": "2025-10-24T11:19:50.821737"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821764"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: EasyJob",
+      "timestamp": "2025-10-24T11:19:50.821806"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821834"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.821882"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.821910"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: flask-profiler",
+      "timestamp": "2025-10-24T11:19:50.832508"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.832574"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bugbug",
+      "timestamp": "2025-10-24T11:19:50.832625"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.832653"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: goaccess",
+      "timestamp": "2025-10-24T11:19:50.832701"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: hyperdx",
+      "timestamp": "2025-10-24T11:19:50.832745"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.832772"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: 1000_Projects",
+      "timestamp": "2025-10-24T11:19:50.832813"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.832841"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: DumpsterFire",
+      "timestamp": "2025-10-24T11:19:50.832886"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: RagaAI-Catalyst",
+      "timestamp": "2025-10-24T11:19:50.832929"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.832956"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.832999"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.833023"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.833065"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.833108"
+    },
+    {
+      "points": 100,
+      "reason": "AgentDB opportunity: centreon-archived",
+      "timestamp": "2025-10-24T11:19:50.833347"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.842939"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.843002"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.843051"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.843078"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.843117"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.843144"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.843182"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.843206"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.843228"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.843267"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.843305"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.843343"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.843417"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.843458"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.843496"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.849972"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.850016"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.850043"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.850056"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.850077"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.850089"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.850100"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.850120"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.850139"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.850158"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.850176"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.850193"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.850211"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Paper",
+      "timestamp": "2025-10-24T11:19:50.850233"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.856460"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.856524"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.856549"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.856589"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.856617"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.856629"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.856647"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.856668"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.856687"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.856704"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.856722"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.856741"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: SleekDB",
+      "timestamp": "2025-10-24T11:19:50.864145"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.864207"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.864253"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.864278"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.864318"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: markdown-online-editor",
+      "timestamp": "2025-10-24T11:19:50.864387"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.864416"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cuber-gem",
+      "timestamp": "2025-10-24T11:19:50.864455"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.864490"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.864526"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.864547"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.864582"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.864618"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.864657"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.873282"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.873344"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.873408"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.873454"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.873476"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.873512"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.873531"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.873563"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.873687"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.873715"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.873755"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.873793"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.873831"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.873868"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.873904"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.873940"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.882072"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.882139"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.882190"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.882218"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.882262"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.882286"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.882326"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.882350"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.882426"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.882468"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.882492"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.882531"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.882570"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.882612"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Database-Notes",
+      "timestamp": "2025-10-24T11:19:50.882649"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.882673"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.890495"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.890572"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.890598"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.890637"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.890676"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Paper",
+      "timestamp": "2025-10-24T11:19:50.890712"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.890747"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.890783"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.890805"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.890843"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.890883"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.890919"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.898783"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.898868"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.898914"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.898940"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.898986"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.899026"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.899049"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.899086"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.899124"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.899162"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.899200"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.899237"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.907239"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.907300"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.907325"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.907396"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.907423"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.907462"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.907498"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.907520"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ardb",
+      "timestamp": "2025-10-24T11:19:50.907554"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.907589"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.907623"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.907657"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: grafana",
+      "timestamp": "2025-10-24T11:19:50.907692"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.907713"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.907747"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.915584"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.915649"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.915701"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.915726"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.915767"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.915790"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.915833"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.915858"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.915897"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.915936"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.915973"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.916010"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.916032"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.916071"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.916107"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.916131"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: unqlite",
+      "timestamp": "2025-10-24T11:19:50.924153"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.924221"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.924271"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.924317"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.924343"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: markdown-online-editor",
+      "timestamp": "2025-10-24T11:19:50.924421"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.924449"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.924489"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.924512"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.924551"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: cuber-gem",
+      "timestamp": "2025-10-24T11:19:50.924589"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: china-dictatorship",
+      "timestamp": "2025-10-24T11:19:50.924626"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.924649"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: .github",
+      "timestamp": "2025-10-24T11:19:50.924686"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Front-end-tutorial",
+      "timestamp": "2025-10-24T11:19:50.924724"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.924746"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.933450"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.933517"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.933573"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.933600"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.933643"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.933667"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.933706"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.933746"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.933782"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.933806"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.933846"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.933882"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.933904"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.933942"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.933979"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.934001"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.941768"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.941830"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.941858"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: bitalostored",
+      "timestamp": "2025-10-24T11:19:50.941909"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.941934"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: kvrocks",
+      "timestamp": "2025-10-24T11:19:50.941975"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.941999"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.942022"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: redix",
+      "timestamp": "2025-10-24T11:19:50.942060"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-go",
+      "timestamp": "2025-10-24T11:19:50.942098"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.942135"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: objectbox-swift",
+      "timestamp": "2025-10-24T11:19:50.942170"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.942208"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.942244"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: Paper",
+      "timestamp": "2025-10-24T11:19:50.942283"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: tera",
+      "timestamp": "2025-10-24T11:19:50.949921"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.949988"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: defradb",
+      "timestamp": "2025-10-24T11:19:50.950041"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.950072"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: IceFireDB",
+      "timestamp": "2025-10-24T11:19:50.950113"
+    },
+    {
+      "points": 20,
+      "reason": "High similarity match!",
+      "timestamp": "2025-10-24T11:19:50.950138"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: lmdb-js",
+      "timestamp": "2025-10-24T11:19:50.950176"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: gluesql",
+      "timestamp": "2025-10-24T11:19:50.950215"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.950238"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: NBA-Machine-Learning-Sports-Betting",
+      "timestamp": "2025-10-24T11:19:50.950281"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: ml-engineering",
+      "timestamp": "2025-10-24T11:19:50.950321"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.950345"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: aideml",
+      "timestamp": "2025-10-24T11:19:50.950407"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-ML-Cheatsheets",
+      "timestamp": "2025-10-24T11:19:50.950445"
+    },
+    {
+      "points": 10,
+      "reason": "Similar repo: AI-Infra-from-Zero-to-Hero",
+      "timestamp": "2025-10-24T11:19:50.950480"
+    },
+    {
+      "points": 20,
+      "reason": "High-value opportunity!",
+      "timestamp": "2025-10-24T11:19:50.950502"
+    }
+  ]
+}

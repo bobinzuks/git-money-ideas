@@ -1,0 +1,41 @@
+{
+  "name": "AgentDB Discovery - Auto Reports",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.formatting.provider": "black"
+      }
+    }
+  },
+
+  "postCreateCommand": "pip install -r requirements.txt && chmod +x *.sh",
+
+  "postStartCommand": "bash -c 'if [ -f .env ]; then export $(cat .env | grep -v ^# | xargs); fi && echo \"✅ Codespace ready! Run ./start_all.sh to begin\"'",
+
+  "forwardPorts": [5000],
+
+  "portsAttributes": {
+    "5000": {
+      "label": "Discovery Dashboard",
+      "onAutoForward": "notify"
+    }
+  },
+
+  "remoteEnv": {
+    "TZ": "America/New_York"
+  }
+}

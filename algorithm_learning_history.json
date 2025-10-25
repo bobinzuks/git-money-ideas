@@ -1,0 +1,86 @@
+{
+  "query_effectiveness": {},
+  "quality_trends": [
+    {
+      "timestamp": "2025-10-24T19:58:52.164109",
+      "trend": "stable",
+      "quality_score_24h": 1.75,
+      "perfect_gems_12h": 115
+    },
+    {
+      "timestamp": "2025-10-24T19:59:26.205581",
+      "trend": "stable",
+      "quality_score_24h": 1.75,
+      "perfect_gems_12h": 115
+    },
+    {
+      "timestamp": "2025-10-24T19:59:58.650227",
+      "trend": "stable",
+      "quality_score_24h": 1.75,
+      "perfect_gems_12h": 115
+    }
+  ],
+  "best_keywords": [
+    "memory",
+    "chatbot",
+    "built",
+    "context",
+    "using",
+    "persistent"
+  ],
+  "parameter_evolution": [
+    {
+      "timestamp": "2025-10-24T19:58:52.174168",
+      "best_range": "100+",
+      "quality_ratio": 1.0
+    },
+    {
+      "timestamp": "2025-10-24T19:59:26.215190",
+      "best_range": "100+",
+      "quality_ratio": 1.0
+    },
+    {
+      "timestamp": "2025-10-24T19:59:58.657663",
+      "best_range": "100+",
+      "quality_ratio": 1.0
+    }
+  ],
+  "learning_events": [
+    {
+      "timestamp": "2025-10-24T19:58:52.151375",
+      "event": "query_analysis",
+      "emerging_keywords": [
+        "memory",
+        "chatbot",
+        "built",
+        "context",
+        "using"
+      ],
+      "gems_analyzed": 1334
+    },
+    {
+      "timestamp": "2025-10-24T19:59:26.183664",
+      "event": "query_analysis",
+      "emerging_keywords": [
+        "memory",
+        "chatbot",
+        "built",
+        "context",
+        "using"
+      ],
+      "gems_analyzed": 1334
+    },
+    {
+      "timestamp": "2025-10-24T19:59:58.639553",
+      "event": "query_analysis",
+      "emerging_keywords": [
+        "memory",
+        "chatbot",
+        "built",
+        "context",
+        "using"
+      ],
+      "gems_analyzed": 1334
+    }
+  ]
+}

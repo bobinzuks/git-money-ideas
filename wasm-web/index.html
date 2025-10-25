@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 WASM Infinite Discovery - Process Millions of Repos in Your Browser</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .stat {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .opportunities {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .opportunity {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+            border-left: 5px solid;
+            transition: all 0.3s;
+        }
+
+        .opportunity:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(5px);
+        }
+
+        .opportunity.score-high {
+            border-color: #4ade80;
+        }
+
+        .opportunity.score-medium {
+            border-color: #fbbf24;
+        }
+
+        .opportunity.score-low {
+            border-color: #f87171;
+        }
+
+        .opportunity h3 {
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+
+        .opportunity .meta {
+            display: flex;
+            gap: 20px;
+            margin: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        .opportunity .meta span {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        .score-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ade80, #22c55e);
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .log {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .log-entry {
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 3px solid rgba(255, 255, 255, 0.3);
+            padding-left: 10px;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .discovering {
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 WASM Infinite Discovery</h1>
+            <p class="subtitle">Process millions of repos • Find fast-money opportunities • Zero backend</p>
+        </header>
+
+        <div class="dashboard">
+            <div class="card">
+                <h2>📊 Total Analyzed</h2>
+                <div class="stat" id="totalCount">0</div>
+                <p>Repositories processed</p>
+            </div>
+
+            <div class="card">
+                <h2>💰 Fast Money</h2>
+                <div class="stat" id="fastMoneyCount">0</div>
+                <p>Opportunities found (≥7.0)</p>
+            </div>
+
+            <div class="card">
+                <h2>⭐ Avg Score</h2>
+                <div class="stat" id="avgScore">0.0</div>
+                <p>Average fast-money score</p>
+            </div>
+
+            <div class="card">
+                <h2>⚡ Speed</h2>
+                <div class="stat" id="speed">0</div>
+                <p>Repos per second</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="loadBtn">📥 Load Test Data (143 repos)</button>
+            <button id="discoverBtn">🔍 Discover Trending (Live GitHub API)</button>
+            <button id="processBtn">⚡ Process Batch (1000 repos)</button>
+            <button id="infiniteBtn">♾️ Infinite Discovery Mode</button>
+            <button id="exportBtn">💾 Export Results</button>
+        </div>
+
+        <div class="card">
+            <h2>📈 Processing Progress</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressBar" style="width: 0%">0%</div>
+            </div>
+            <div id="statusText">Ready to discover</div>
+        </div>
+
+        <div class="opportunities">
+            <h2>🏆 Top Fast-Money Opportunities</h2>
+            <div id="opportunitiesList">
+                <p style="opacity: 0.6;">Load or discover repositories to see opportunities...</p>
+            </div>
+        </div>
+
+        <div class="log" id="logContainer">
+            <div class="log-entry">🚀 WASM Engine initialized. Ready to process millions of repos...</div>
+        </div>
+    </div>
+
+    <script type="module">
+        import init, { VectorDatabase, Repository } from './pkg/gitbank_rust.js';
+
+        let db;
+        let startTime;
+        let processedCount = 0;
+        let isInfiniteMode = false;
+
+        async function main() {
+            // Initialize WASM
+            await init();
+            addLog('✅ WASM module loaded successfully');
+
+            // Create vector database
+            db = new VectorDatabase();
+            addLog('✅ Vector database initialized');
+
+            // Setup UI handlers
+            setupHandlers();
+        }
+
+        function setupHandlers() {
+            document.getElementById('loadBtn').onclick = loadTestData;
+            document.getElementById('discoverBtn').onclick = discoverTrending;
+            document.getElementById('processBtn').onclick = processBatch;
+            document.getElementById('infiniteBtn').onclick = toggleInfiniteMode;
+            document.getElementById('exportBtn').onclick = exportResults;
+        }
+
+        async function loadTestData() {
+            addLog('📥 Loading test data from production results...');
+            setStatus('Loading test data...');
+
+            try {
+                const response = await fetch('/production_results_20251024_112339.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch: ${response.status}`);
+                }
+                const data = await response.json();
+
+                const repos = data.top_opportunities;
+                startTime = Date.now();
+                processedCount = 0;
+
+                for (const opp of repos) {
+                    const repo = new Repository(
+                        opp.project || 'Unknown',
+                        opp.owner || 'unknown',
+                        opp.category || 'General Software',
+                        parseInt(opp.stars) || 0,
+                        parseInt(opp.forks) || 0,
+                        opp.language || 'Unknown',
+                        opp.url || ''
+                    );
+
+                    const score = db.store(repo);
+                    processedCount++;
+
+                    if (processedCount % 5 === 0 || processedCount === repos.length) {
+                        updateProgress(processedCount, repos.length);
+                        updateStats();
+                        await sleep(1); // Let UI update
+                    }
+                }
+
+                addLog(`✅ Loaded ${repos.length} repositories`);
+                setStatus(`Loaded ${repos.length} repositories`);
+                displayOpportunities();
+
+            } catch (error) {
+                addLog(`❌ Error loading data: ${error.message}`);
+            }
+        }
+
+        async function discoverTrending() {
+            addLog('🔍 Discovering trending repositories from GitHub...');
+            setStatus('Discovering from GitHub...');
+
+            // For demo: simulate discovery with random repos
+            // In production: integrate with GitHub API via Web Workers
+            addLog('⚠️  GitHub API integration requires backend/worker');
+            addLog('💡 Use "Load Test Data" to see WASM engine in action');
+        }
+
+        async function processBatch() {
+            addLog('⚡ Processing simulated batch of 1000 repos...');
+            setStatus('Processing batch...', 'discovering');
+
+            startTime = Date.now();
+            const batchSize = 1000;
+
+            for (let i = 0; i < batchSize; i++) {
+                // Simulate repo
+                const repo = generateSimulatedRepo();
+                const score = db.store(repo);
+                processedCount++;
+
+                if (i % 50 === 0) {
+                    updateProgress(i, batchSize);
+                    updateStats();
+                    await sleep(1); // Let UI breathe
+                }
+            }
+
+            updateProgress(batchSize, batchSize);
+            updateStats();
+            displayOpportunities();
+
+            const elapsed = (Date.now() - startTime) / 1000;
+            addLog(`✅ Processed ${batchSize} repos in ${elapsed.toFixed(2)}s`);
+            addLog(`⚡ Speed: ${(batchSize / elapsed).toFixed(0)} repos/sec`);
+            setStatus(`Batch complete: ${batchSize} repos processed`);
+        }
+
+        function toggleInfiniteMode() {
+            isInfiniteMode = !isInfiniteMode;
+            const btn = document.getElementById('infiniteBtn');
+
+            if (isInfiniteMode) {
+                btn.textContent = '⏸️ Pause Discovery';
+                btn.style.background = 'rgba(239, 68, 68, 0.3)';
+                addLog('♾️  INFINITE DISCOVERY MODE ACTIVATED');
+                setStatus('Infinite discovery running...', 'discovering');
+                runInfiniteDiscovery();
+            } else {
+                btn.textContent = '♾️ Infinite Discovery Mode';
+                btn.style.background = '';
+                addLog('⏸️  Infinite discovery paused');
+                setStatus('Discovery paused');
+            }
+        }
+
+        async function runInfiniteDiscovery() {
+            while (isInfiniteMode) {
+                const repo = generateSimulatedRepo();
+                const score = db.store(repo);
+                processedCount++;
+
+                if (processedCount % 10 === 0) {
+                    updateStats();
+                }
+
+                if (processedCount % 100 === 0) {
+                    displayOpportunities();
+                    addLog(`♾️  Processed ${processedCount} repos...`);
+                }
+
+                await sleep(10); // Throttle
+            }
+        }
+
+        function generateSimulatedRepo() {
+            const categories = ['Security Tools', 'AI/ML Tools', 'DevOps Tools', 'Analytics Platform', 'Database Technology'];
+            const languages = ['Python', 'Go', 'Rust', 'TypeScript', 'Java'];
+            const prefixes = ['awesome', 'super', 'fast', 'easy', 'smart', 'auto', 'open'];
+            const suffixes = ['tool', 'platform', 'framework', 'engine', 'system', 'api'];
+
+            const stars = Math.floor(Math.random() * 10000);
+            const name = `${prefixes[Math.floor(Math.random() * prefixes.length)]}-${suffixes[Math.floor(Math.random() * suffixes.length)]}`;
+
+            return new Repository(
+                name,
+                `user${Math.floor(Math.random() * 1000)}`,
+                categories[Math.floor(Math.random() * categories.length)],
+                stars,
+                Math.floor(stars * 0.2),
+                languages[Math.floor(Math.random() * languages.length)],
+                `https://github.com/example/${name}`
+            );
+        }
+
+        function updateStats() {
+            try {
+                const statsResult = db.getStats();
+
+                // Parse the stats if it's a JS object
+                const stats = typeof statsResult === 'object' ? statsResult : JSON.parse(statsResult);
+
+                document.getElementById('totalCount').textContent = (stats.total || 0).toLocaleString();
+                document.getElementById('fastMoneyCount').textContent = (stats.fast_money_count || 0).toLocaleString();
+                document.getElementById('avgScore').textContent = (stats.avg_score || 0).toFixed(2);
+
+                if (startTime) {
+                    const elapsed = (Date.now() - startTime) / 1000;
+                    const speed = Math.floor(processedCount / elapsed);
+                    document.getElementById('speed').textContent = speed.toLocaleString();
+                }
+            } catch (error) {
+                console.error('Error updating stats:', error);
+                // Use db.getCount() as fallback
+                document.getElementById('totalCount').textContent = db.getCount().toLocaleString();
+            }
+        }
+
+        function displayOpportunities() {
+            const opportunities = db.getTopOpportunities(20);
+            const container = document.getElementById('opportunitiesList');
+
+            if (!opportunities || opportunities.length === 0) {
+                container.innerHTML = '<p style="opacity: 0.6;">No opportunities found yet...</p>';
+                return;
+            }
+
+            container.innerHTML = opportunities.map((opp, i) => {
+                const repo = opp.repository;
+                const scoreClass = opp.fast_money_score >= 8.0 ? 'score-high' :
+                                  opp.fast_money_score >= 7.0 ? 'score-medium' : 'score-low';
+
+                return `
+                    <div class="opportunity ${scoreClass}">
+                        <h3>${i + 1}. ${repo.name} <span class="score-badge">${opp.fast_money_score.toFixed(1)}/10</span></h3>
+                        <p>${repo.category} • by ${repo.owner}</p>
+                        <div class="meta">
+                            <span>⭐ ${repo.stars.toLocaleString()} stars</span>
+                            <span>🔱 ${repo.forks.toLocaleString()} forks</span>
+                            <span>💻 ${repo.language}</span>
+                            <span>💰 $${opp.revenue_estimate_low}K-$${opp.revenue_estimate_high}K</span>
+                            <span>⏱️  ${opp.time_to_market_days} days</span>
+                            <span>⚠️  ${opp.risk_level} risk</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function updateProgress(current, total) {
+            const percent = Math.floor((current / total) * 100);
+            const bar = document.getElementById('progressBar');
+            bar.style.width = `${percent}%`;
+            bar.textContent = `${percent}%`;
+        }
+
+        function setStatus(text, className = '') {
+            const el = document.getElementById('statusText');
+            el.textContent = text;
+            el.className = className;
+        }
+
+        function addLog(message) {
+            const container = document.getElementById('logContainer');
+            const entry = document.createElement('div');
+            entry.className = 'log-entry';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            container.insertBefore(entry, container.firstChild);
+
+            // Keep only last 50 entries
+            while (container.children.length > 50) {
+                container.removeChild(container.lastChild);
+            }
+        }
+
+        function exportResults() {
+            const opportunities = db.getTopOpportunities(100);
+            const stats = db.getStats();
+
+            const exportData = {
+                exported_at: new Date().toISOString(),
+                statistics: stats,
+                opportunities: opportunities
+            };
+
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `wasm_discovery_${Date.now()}.json`;
+            a.click();
+
+            addLog(`💾 Exported ${opportunities.length} opportunities`);
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        // Initialize
+        main().catch(console.error);
+    </script>
+</body>
+</html>

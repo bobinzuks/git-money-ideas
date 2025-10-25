@@ -1,0 +1,14 @@
+Starting quick analysis...
+Analyzing 20 top users
+
+[1/20] 
+Analyzing: nikivdev (4914 followers)
+Rate limited, stopping
+
+
+================================================================================
+Found 0 high-potential opportunities
+Results saved to monetization_opportunities.json
+
+TOP 10 FAST MONEY MAKERS:
+================================================================================

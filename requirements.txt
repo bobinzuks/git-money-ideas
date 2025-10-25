@@ -1,0 +1,11 @@
+# AgentDB Discovery - Python Dependencies
+
+# Core dependencies
+requests>=2.31.0
+sqlite3  # Built-in, but listed for clarity
+
+# Email
+python-dotenv>=1.0.0
+
+# Optional: For better HTML email formatting
+markdown>=3.5.0

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Discovery System Status</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { text-align: center; font-size: 2.5em; margin-bottom: 30px; }
+        .status-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            animation: pulse 2s infinite;
+        }
+        .status-running { background: #4ade80; box-shadow: 0 0 20px #4ade80; }
+        .status-waiting { background: #fbbf24; box-shadow: 0 0 20px #fbbf24; }
+        .status-error { background: #ef4444; box-shadow: 0 0 20px #ef4444; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .stat-label { opacity: 0.8; }
+        .stat-value { font-weight: bold; font-size: 1.2em; }
+        .log-container {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 1em;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Hidden Gem Discovery - System Status</h1>
+
+        <div class="status-card">
+            <h2><span class="status-indicator status-running"></span>Discovery Engine</h2>
+            <div class="stat-row">
+                <span class="stat-label">Status</span>
+                <span class="stat-value" id="engineStatus">Loading...</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Current Cycle</span>
+                <span class="stat-value" id="currentCycle">-</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Runtime</span>
+                <span class="stat-value" id="runtime">-</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Rate Limit</span>
+                <span class="stat-value" id="rateLimit">-</span>
+            </div>
+        </div>
+
+        <div class="status-card">
+            <h2>📊 Discovery Stats</h2>
+            <div class="stat-row">
+                <span class="stat-label">Total Repos Scanned</span>
+                <span class="stat-value" id="totalScanned">-</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Gems Found (Session)</span>
+                <span class="stat-value" id="gemsFound">-</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Unique Gems in Database</span>
+                <span class="stat-value" id="uniqueGems">-</span>
+            </div>
+            <div class="stat-row">
+                <span class="stat-label">Scan Rate</span>
+                <span class="stat-value" id="scanRate">-</span>
+            </div>
+        </div>
+
+        <div class="status-card">
+            <h2>📝 Recent Activity</h2>
+            <div class="log-container" id="recentLog">Loading...</div>
+        </div>
+
+        <div style="text-align: center;">
+            <button onclick="window.location.href='http://localhost:8081/discovery-dashboard.html'">📊 View Dashboard</button>
+            <button onclick="location.reload()">🔄 Refresh Status</button>
+        </div>
+    </div>
+
+    <script>
+        async function loadStatus() {
+            try {
+                // Get database stats
+                const statsRes = await fetch('http://localhost:5000/api/stats');
+                if (statsRes.ok) {
+                    const stats = await statsRes.json();
+                    document.getElementById('uniqueGems').textContent = stats.total_gems;
+                }
+
+                // Parse recent log entries
+                const logRes = await fetch('/discovery.log');
+                if (logRes.ok) {
+                    const logText = await logRes.text();
+                    const lines = logText.split('\\n');
+
+                    // Find latest cycle info
+                    for (let i = lines.length - 1; i >= 0; i--) {
+                        const line = lines[i];
+
+                        if (line.includes('DISCOVERY CYCLE #')) {
+                            const cycle = line.match(/CYCLE #(\\d+)/)[1];
+                            document.getElementById('currentCycle').textContent = '#' + cycle;
+                        }
+                        if (line.includes('⏱️  Runtime:')) {
+                            const runtime = line.match(/Runtime: (.+)/)[1];
+                            document.getElementById('runtime').textContent = runtime;
+                        }
+                        if (line.includes('🔍 Total Scanned:')) {
+                            const scanned = line.match(/Scanned: (.+)/)[1];
+                            document.getElementById('totalScanned').textContent = scanned;
+                        }
+                        if (line.includes('💎 Gems Found:')) {
+                            const found = line.match(/Found: (\\d+)/)[1];
+                            document.getElementById('gemsFound').textContent = found;
+                        }
+                        if (line.includes('⚡ Scan Rate:')) {
+                            const rate = line.match(/Rate: (.+)/)[1];
+                            document.getElementById('scanRate').textContent = rate;
+                        }
+                        if (line.includes('📊 Rate Limit:')) {
+                            const limit = line.match(/Limit: (.+)/)[1];
+                            document.getElementById('rateLimit').textContent = limit;
+                            const [used, total] = limit.split('/').map(Number);
+                            if (used >= total) {
+                                document.getElementById('engineStatus').textContent = '⏸️ Waiting for Rate Limit Reset';
+                            } else {
+                                document.getElementById('engineStatus').textContent = '✅ Actively Discovering';
+                            }
+                        }
+                    }
+
+                    // Show last 20 interesting lines
+                    const recentLines = lines.filter(l =>
+                        l.includes('💎 FOUND') ||
+                        l.includes('CYCLE #') ||
+                        l.includes('⚠️') ||
+                        l.includes('🤖')
+                    ).slice(-20);
+                    document.getElementById('recentLog').textContent = recentLines.join('\\n') || 'No recent activity';
+                }
+            } catch (e) {
+                document.getElementById('engineStatus').textContent = '❌ Error loading status';
+                console.error(e);
+            }
+        }
+
+        // Load on page load
+        loadStatus();
+
+        // Auto-refresh every 10 seconds
+        setInterval(loadStatus, 10000);
+    </script>
+</body>
+</html>
