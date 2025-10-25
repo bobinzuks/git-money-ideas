@@ -1,0 +1,260 @@
+# 🤖 Claude Flow Swarm - Advanced Orchestration
+# Runs coordinated multi-agent discovery with neural learning
+# BONUS: Runs in addition to main workflow for maximum coverage!
+
+name: Claude Flow Swarm Discovery
+
+on:
+  schedule:
+    # Offset from main workflow - runs at 8am and 8pm UTC
+    - cron: '0 8,20 * * *'
+
+  workflow_dispatch:
+    inputs:
+      swarm_size:
+        description: 'Number of parallel agents'
+        required: false
+        default: '5'
+
+jobs:
+  # Initialize Claude Flow Swarm
+  init-swarm:
+    name: 🐝 Initialize Discovery Swarm
+    runs-on: ubuntu-latest
+    outputs:
+      swarm-id: ${{ steps.init.outputs.swarm_id }}
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Node.js (Claude Flow)
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm install -g claude-flow@alpha
+          pip install -r requirements.txt
+
+      - name: 🔄 Restore Database
+        uses: actions/cache@v3
+        with:
+          path: |
+            continuous_discovery.db
+            *.json
+          key: swarm-db-${{ github.run_number }}
+          restore-keys: swarm-db-
+
+      - name: 🐝 Initialize Swarm
+        id: init
+        run: |
+          echo "🐝 Initializing Claude Flow Swarm..."
+
+          # Initialize mesh topology for maximum parallelism
+          npx claude-flow@alpha hooks pre-task \
+            --description "Initialize discovery swarm with ${{ github.event.inputs.swarm_size || '5' }} agents"
+
+          # Store swarm ID
+          SWARM_ID="swarm-$(date +%s)"
+          echo "swarm_id=$SWARM_ID" >> $GITHUB_OUTPUT
+
+          # Store in memory
+          npx claude-flow@alpha hooks memory-store \
+            --key "swarm/id" \
+            --value "$SWARM_ID"
+
+      - name: 💾 Upload Swarm State
+        uses: actions/upload-artifact@v3
+        with:
+          name: swarm-state
+          path: |
+            .claude-flow/**/*
+            memory/**/*
+
+  # Parallel Discovery with Swarm Coordination
+  swarm-discover:
+    name: 🔍 Swarm Discovery
+    needs: init-swarm
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        agent:
+          - { name: 'primary', script: 'continuous_discovery.py' }
+          - { name: 'live', script: 'discover_live_repos.py' }
+          - { name: 'gems', script: 'hidden_gem_discovery.py' }
+          - { name: 'quest', script: 'gamified_discovery_quest.py' }
+          - { name: 'advanced', script: 'advanced_discovery_engine.py' }
+      fail-fast: false
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Claude Flow
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - run: |
+          npm install -g claude-flow@alpha
+          pip install -r requirements.txt
+
+      - name: 🔄 Restore Swarm State
+        uses: actions/download-artifact@v3
+        with:
+          name: swarm-state
+
+      - name: 🔄 Restore Database
+        uses: actions/cache@v3
+        with:
+          path: continuous_discovery.db
+          key: swarm-db-${{ github.run_number }}
+          restore-keys: swarm-db-
+
+      - name: 🤖 Execute Agent Task
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          SWARM_ID: ${{ needs.init-swarm.outputs.swarm-id }}
+          AGENT_NAME: ${{ matrix.agent.name }}
+        run: |
+          echo "🤖 Starting agent: $AGENT_NAME"
+
+          # Pre-task hook
+          npx claude-flow@alpha hooks pre-task \
+            --description "Agent $AGENT_NAME: ${{ matrix.agent.script }}"
+
+          # Execute discovery
+          python ${{ matrix.agent.script }}
+
+          # Post-task hook
+          npx claude-flow@alpha hooks post-task \
+            --task-id "$SWARM_ID-$AGENT_NAME" \
+            --metrics-file ".claude-flow/metrics/task-metrics.json"
+
+      - name: 💾 Upload Agent Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: agent-results-${{ matrix.agent.name }}
+          path: |
+            *.json
+            *.db
+            .claude-flow/**/*
+
+  # Aggregate & Train Neural Patterns
+  swarm-learn:
+    name: 🧠 Swarm Learning & Analysis
+    needs: swarm-discover
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Claude Flow
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - run: |
+          npm install -g claude-flow@alpha
+          pip install -r requirements.txt
+
+      - name: 🔄 Download All Agent Results
+        uses: actions/download-artifact@v3
+
+      - name: 🔄 Consolidate Results
+        run: |
+          # Merge all agent discoveries
+          find . -name "*.db" -exec cp {} continuous_discovery.db \;
+          find . -name "*.json" -exec cp {} . \;
+
+      - name: 🧠 Train Neural Patterns
+        run: |
+          echo "🧠 Training neural patterns from swarm discoveries..."
+
+          # Train AgentDB
+          python train_agentdb.py
+          python train_simple_vector_db.py
+
+          # Store learning metrics
+          npx claude-flow@alpha hooks post-task \
+            --task-id "swarm-training" \
+            --metrics-file ".claude-flow/metrics/performance.json"
+
+      - name: 📊 Generate Swarm Report
+        run: |
+          # Strategic analysis
+          python strategic_analysis.py
+
+          # Generate performance report
+          npx claude-flow@alpha report performance \
+            --format markdown > swarm-performance.md
+
+      - name: 💾 Upload Learning Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: swarm-learning
+          path: |
+            algorithm_learning_history.json
+            swarm-performance.md
+            .claude-flow/**/*
+
+  # Send Swarm Summary
+  swarm-report:
+    name: 📧 Swarm Report & Metrics
+    needs: swarm-learn
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v3
+
+      - name: 📦 Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: 🔄 Download Results
+        uses: actions/download-artifact@v3
+
+      - name: 📋 Consolidate
+        run: |
+          find . -name "*.db" -exec cp {} . \;
+          find . -name "*.json" -exec cp {} . \;
+
+      - name: 📧 Generate & Send Report
+        env:
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        run: |
+          echo "📧 Generating swarm report..."
+          python automated_report_generator.py
+
+      - name: 💾 Commit Updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f *.db *.json .claude-flow/**/* 2>/dev/null || true
+          git diff --staged --quiet || \
+            git commit -m "🤖 Swarm update: $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]" && \
+            git push

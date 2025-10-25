@@ -6,10 +6,11 @@
 .env.*
 
 # Database files (may contain sensitive discovery data)
-*.db
-*.db-journal
-*.sqlite
-*.sqlite3
+# NOTE: GitHub Actions will force-add these for learning persistence
+# *.db
+# *.db-journal
+# *.sqlite
+# *.sqlite3
 
 # Log files (may contain sensitive info)
 *.log
@@ -70,7 +71,8 @@ test_sample_report.md
 continuous_discovery_*.json
 hidden_gems_*.json
 
-# Algorithm learning history (optional - uncomment to keep private)
+# Algorithm learning history - KEEP TRACKED for continuous learning!
+# (GitHub Actions commits this automatically)
 # algorithm_learning_history.json
 
 # Backup files
@@ -86,3 +88,30 @@ node_modules/
 Thumbs.db
 .Spotlight-V100
 .Trashes
+
+# Claude Flow generated files
+.claude/settings.local.json
+.mcp.json
+claude-flow.config.json
+.swarm/
+.hive-mind/
+.claude-flow/
+memory/
+coordination/
+memory/claude-flow-data.json
+memory/sessions/*
+!memory/sessions/README.md
+memory/agents/*
+!memory/agents/README.md
+coordination/memory_bank/*
+coordination/subtasks/*
+coordination/orchestration/*
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+claude-flow
+# Removed Windows wrapper files per user request
+hive-mind-prompt-*.txt

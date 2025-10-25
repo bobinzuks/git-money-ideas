@@ -1,0 +1,281 @@
+# 🚀 Continuous Discovery - Maximum Free Tier Usage
+# Runs every 12 hours, trains the algorithm, sends email reports
+# PUBLIC REPOS = UNLIMITED FREE MINUTES!
+
+name: Continuous Discovery & Training
+
+on:
+  schedule:
+    # Every 12 hours: 2am and 2pm UTC (adjust to your timezone)
+    - cron: '0 2,14 * * *'
+
+  # Manual trigger for testing
+  workflow_dispatch:
+
+  # Run on push to main (optional - comment out if too frequent)
+  push:
+    branches:
+      - main
+    paths:
+      - '*.py'
+      - 'requirements.txt'
+
+jobs:
+  # Job 1: Parallel Discovery (ALL scripts run at once!)
+  discover-parallel:
+    name: 🔍 Parallel Discovery Matrix
+    runs-on: ubuntu-latest
+    strategy:
+      # Run all discovery scripts in parallel
+      matrix:
+        script:
+          - continuous_discovery.py
+          - discover_live_repos.py
+          - hidden_gem_discovery.py
+          - gamified_discovery_quest.py
+          - advanced_discovery_engine.py
+      # Don't cancel other scripts if one fails
+      fail-fast: false
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔄 Restore Discovery Database
+        uses: actions/cache@v3
+        with:
+          path: |
+            continuous_discovery.db
+            *.json
+            algorithm_learning_history.json
+          key: discovery-db-${{ github.run_number }}
+          restore-keys: |
+            discovery-db-
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🚀 Run Discovery Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "🔍 Running ${{ matrix.script }}..."
+          python ${{ matrix.script }}
+        continue-on-error: true
+
+      - name: 💾 Upload Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: discovery-results-${{ matrix.script }}
+          path: |
+            *.json
+            *.db
+            *.log
+          retention-days: 30
+
+  # Job 2: AgentDB Training (Neural Learning)
+  train-agentdb:
+    name: 🧠 Train AgentDB Neural Patterns
+    needs: discover-parallel
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔄 Download All Discovery Results
+        uses: actions/download-artifact@v3
+        with:
+          path: artifacts/
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🧠 Train AgentDB
+        run: |
+          # Merge all discovery results
+          python train_agentdb.py
+          python train_simple_vector_db.py
+        continue-on-error: true
+
+      - name: 💾 Upload Training Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: training-results
+          path: |
+            algorithm_learning_history.json
+            *.db
+
+  # Job 3: Strategic Analysis
+  analyze:
+    name: 📊 Strategic Analysis
+    needs: train-agentdb
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔄 Download Training Results
+        uses: actions/download-artifact@v3
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: 📊 Run Analysis
+        run: |
+          # Copy database from artifacts
+          find artifacts -name "*.db" -exec cp {} . \;
+          find artifacts -name "*.json" -exec cp {} . \;
+
+          # Run all analysis scripts
+          python strategic_analysis.py
+          python analyze_monetizable_repos.py
+        continue-on-error: true
+
+      - name: 💾 Upload Analysis Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: analysis-results
+          path: |
+            strategic_monetization_report.json
+            *.md
+            *.json
+
+  # Job 4: Generate & Send Email Report
+  report:
+    name: 📧 Generate & Email Report
+    needs: analyze
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🔄 Download All Results
+        uses: actions/download-artifact@v3
+        with:
+          path: artifacts/
+
+      - name: 🐍 Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: 📋 Consolidate Results
+        run: |
+          # Copy all results to root
+          find artifacts -name "*.db" -exec cp {} . \;
+          find artifacts -name "*.json" -exec cp {} . \;
+          find artifacts -name "*.log" -exec cp {} . \;
+
+      - name: 📧 Generate Email Report
+        env:
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+        run: |
+          echo "📧 Generating automated report..."
+          python automated_report_generator.py
+
+      - name: 💾 Upload Final Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: final-report
+          path: |
+            *.html
+            *.md
+            *.json
+
+  # Job 5: Commit Database Updates (Persist Learning!)
+  persist:
+    name: 💾 Persist Database & Learning
+    needs: report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔄 Download All Artifacts
+        uses: actions/download-artifact@v3
+
+      - name: 📋 Consolidate All Data
+        run: |
+          # Copy database and learning data
+          find . -name "continuous_discovery.db" -exec cp {} . \;
+          find . -name "algorithm_learning_history.json" -exec cp {} . \;
+          find . -name "*.json" -type f -exec cp {} . \; || true
+
+          # List what we're committing
+          ls -lh *.db *.json 2>/dev/null || echo "No files to commit"
+
+      - name: 💾 Commit & Push Updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add only data files (not code)
+          git add -f *.db *.json 2>/dev/null || true
+
+          # Commit with timestamp
+          if git diff --staged --quiet; then
+            echo "✅ No database changes to commit"
+          else
+            git commit -m "📊 Auto-update: Discovery DB & Learning $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+            echo "✅ Database updates pushed to repository"
+          fi
+
+  # Job 6: Summary Statistics
+  summary:
+    name: 📈 Workflow Summary
+    needs: persist
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+      - name: 📊 Generate Workflow Summary
+        run: |
+          echo "## 🎯 Continuous Discovery Workflow Complete!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### ✅ Jobs Completed:" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔍 Parallel Discovery (5 scripts)" >> $GITHUB_STEP_SUMMARY
+          echo "- 🧠 AgentDB Training" >> $GITHUB_STEP_SUMMARY
+          echo "- 📊 Strategic Analysis" >> $GITHUB_STEP_SUMMARY
+          echo "- 📧 Email Report Sent" >> $GITHUB_STEP_SUMMARY
+          echo "- 💾 Database Persisted" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📧 Next Report:" >> $GITHUB_STEP_SUMMARY
+          echo "**12 hours from now** (check your email!)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🔗 Artifacts:" >> $GITHUB_STEP_SUMMARY
+          echo "- Discovery results, training data, and reports are saved in workflow artifacts" >> $GITHUB_STEP_SUMMARY
