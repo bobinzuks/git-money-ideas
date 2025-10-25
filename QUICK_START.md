@@ -18,7 +18,7 @@ Every 12 hours, this system emails you:
 **What you need:**
 - Gmail/Outlook email
 - App password ([get one here](https://myaccount.google.com/apppasswords))
-- Your GitHub token (already have: `github_pat_11AE63UPI0...`)
+- Your GitHub token ([create one](https://github.com/settings/tokens))
 
 ### Step 2: Start Everything (30 seconds)
 ```bash
